@@ -1,0 +1,256 @@
+.wedding-outer,
+.wedding-events-outer {
+    margin: 80px 0;
+}
+
+.wedding-service-outer {
+
+    padding: 100px 0;
+    background-image: url('../../assets//image/meerigefunction/merrige\ view.jpeg');
+    position: relative;
+    background-attachment: fixed;
+}
+
+.wedding-service-outer::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    content: "";
+}
+
+.wedding-service-inner .wedding-ser-title {
+    z-index: 22;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.wedding-item {
+    position: relative;
+    z-index: 22;
+}
+
+.wedding-outer .wedding-inner,
+.wedding-service-outer .wedding-service-inner,
+.wedding-events-outer,
+.wedding-events-inner {
+    margin: 0 -15px;
+}
+
+.wedding-outer .wedding-inner .wedding-item .item .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.wedding-outer .wedding-inner .wedding-item .item p {
+    font-style: 14px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 0.4px;
+}
+
+.wedding-outer .wedding-inner .wedding-item .item .image-block {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.wedding-outer .wedding-inner .wedding-item .item .image-block:hover img {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.wedding-outer .wedding-inner .wedding-item .item .image-block img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.wedding-service-outer .wedding-service-inner .wedding-item .item {
+    margin-bottom: 15px;
+}
+
+.wedding-service-outer .wedding-service-inner .wedding-item .item .item-inner {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    height: 130px;
+    border-radius: 10px;
+    background: #ffffffca;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.wedding-service-outer .wedding-service-inner .wedding-item .item .item-inner img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.wedding-service-outer .wedding-service-inner .wedding-item .item .item-inner .text {
+    font-weight: 600;
+    color: #000;
+}
+
+.wedding-service-outer .wedding-service-inner .wedding-item .item:hover img {
+    transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.wedding-events-outer .wedding-events-inner .item {
+    margin-bottom: 30px;
+}
+
+.wedding-events-outer .wedding-events-inner .item .img-block img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.wedding-events-outer .wedding-events-inner .item .img-block {
+    position: relative;
+}
+
+.wedding-events-outer .wedding-events-inner .item .img-block .text {
+    position: absolute;
+}
+
+.wedding-events-outer .wedding-events-inner .item .img-block .text {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 20px 12px;
+    width: 100%;
+    text-align: center;
+}
+
+/* ============Swiper css======================= */
+.swiper_container {
+    container: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.swiper-slide img {
+    width: 16rem !important;
+    height: 19rem !important;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+.wedding-function{
+    margin: 30px 0;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+    display: none;
+}
+
+.wedding-function .swiper-3d .slider-controler {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%, -10%);
+    display: block;
+
+}
+
+.wedding-function .swiper-3d .slider-controler .swiper-button-next {
+    left: 58% !important;
+    transform: translateX(-58%) !important;
+}
+
+.wedding-function .swiper-3d .slider-controler .slider-arrow {
+    background: var(--white);
+    width: 1.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    left: 42%;
+    transform: translateX(-42%);
+    filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.wedding-function .swiper-3d .slider-controler .slider-arrow ion-icon {
+    font-size: 2rem;
+    color: #222224;
+}
+
+.wedding-function .swiper-3d .slider-controler .slider-arrow::after {
+    content: '';
+}
+
+.swiper-pagination {
+    position: relative;
+    width: 15rem !important;
+    bottom: 1rem;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background: #341c05 !important;
+}
+
+.swiper-slide {
+    flex-shrink: 0;
+    width: auto !important;
+    height: auto !important;
+    position: relative;
+    transition-property: transform;
+    display: block;
+    text-align: center;
+    margin: 0 6px!important;
+}
+
+.slider-controler .swiper-pagination {
+    left: 50% !important;
+    width: 100%;
+    transform: translate(-50%);
+    bottom: -40px !important;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    color: #222224 !important;
+}
+
+.wedding-function .swiper-3d {
+    padding: 30px 0 !important;
+    margin: 0 auto !important;
+    width: 750px;
+}
+
+.swiper-wrapper {
+    margin: 0 6px!important;
+}
+
+@media(max-width:640px) {
+    .wedding-function .swiper-3d {
+        padding: 30px 0 !important;
+        margin: 0 auto !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .swiper_container {
+        height: 47rem;
+    }
+
+    .swiper-slide {
+        width: 28rem !important;
+        height: 36rem !important;
+    }
+
+    .swiper-slide img {
+        width: 28rem !important;
+        height: 36rem !important;
+    }
+}
