@@ -14,9 +14,9 @@ import event1 from '../../assets/image/wedding/phithi.jpeg'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import video from '../../assets/image/open the.mp4'
+// import video from '../../assets/image/open the.mp4'
 import { Link } from 'react-router-dom'
-
+import main_image from '../../assets/image/footer_bg1.jpg'
 
 function Home() {
   const events = {
@@ -47,9 +47,10 @@ function Home() {
     <div>
       {/* SLIDER START */}
       <div className="slider-outer">
-        <video width={'100%'} height="400" autoPlay={true} loop controls={false} playsInline muted>
+        {/* <video width={'100%'} height="400" autoPlay={true} loop controls={false} playsInline muted>
           <source src={video} type="video/mp4" />
-        </video>
+        </video> */}
+        <img src={main_image} alt="main_image" />
       </div>
 
 
@@ -61,19 +62,23 @@ function Home() {
             <h1>Indulge in luxury, explore our villas.</h1>
           </div>
           <div className="section-inner row">
-            <div className="section1-item col-lg-4  col-md-6 col-sm-12 col-xs-12">
+            <div className="section1-item col-lg-4  col-md-6 col-sm-12 col-xs-12"
+              data-aos="fade-in"
+              data-aos-duration="3000">
               <img src={villa1} alt="villa" />
               <div className="view_more_btn">
                 <Link to="/villaonrent">  View More</Link>
               </div>
             </div>
-            <div className="section1-item col-lg-4  col-md-6 col-sm-12 col-xs-12">
+            <div className="section1-item col-lg-4  col-md-6 col-sm-12 col-xs-12" data-aos="fade-in"
+              data-aos-duration="3000">
               <img src={villa2} alt="villa" />
               <div className="view_more_btn">
                 <Link to="/villaonrent">  View More</Link>
               </div>
             </div>
-            <div className="section1-item col-lg-4  col-md-6 col-sm-12 col-xs-12">
+            <div className="section1-item col-lg-4  col-md-6 col-sm-12 col-xs-12" data-aos="fade-in"
+              data-aos-duration="3000">
               <img src={villa3} alt="villa" />
               <div className="view_more_btn">
                 <Link to="/villaonrent">  View More</Link>
@@ -96,7 +101,9 @@ function Home() {
               <p>Our properties at Rio Colina blend seamlessly with the natural habitat while offering a perfect
                 amalgamation of luxury, leisure, convenience, and natural beauty.</p>
               <div className="row">
-                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 section-2-item">
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 section-2-item"
+                  data-aos="fade-in"
+                  data-aos-duration="3000">
                   <div className="icon">
                     <img src={villaicon1} alt="section-2" />
                   </div>
@@ -109,7 +116,9 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 section-2-item">
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 section-2-item"
+                  data-aos="fade-in"
+                  data-aos-duration="3000">
                   <div className="icon">
                     <img src={villaicon2} alt="section-2" />
                   </div>
@@ -122,7 +131,9 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 section-2-item">
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 section-2-item"
+                  data-aos="fade-in"
+                  data-aos-duration="3000">
                   <div className="icon">
                     <img src={villaicon3} alt="section-2" />
                   </div>
@@ -208,14 +219,20 @@ function Home() {
       <section className="about_us-outer">
         <div className="container">
           <div className="row align-items-center">
-            <div className="about_us_img col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div className="about_us_img col-lg-6 col-md-6 col-sm-12 col-xs-12"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+            >
               <div className="about_us_img_block">
                 <div className="multiple_img_block">
                   <img src={about1} alt="about" />
                 </div>
               </div>
             </div>
-            <div className="about_us col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div className="about_us col-lg-6 col-md-6 col-sm-12 col-xs-12"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+            >
               <div className="title">
                 About Us
               </div>
@@ -250,7 +267,7 @@ function Home() {
             </div>
             <p>Host memorable events of your life in our exquisite and spacious event spaces.</p>
             <div className="btn">
-            <Link to="/event">  View All</Link>
+              <Link to="/event">  View All</Link>
             </div>
           </div>
           <div className="right-item col-lg-9 ">

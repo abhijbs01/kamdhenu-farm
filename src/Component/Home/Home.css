@@ -121,13 +121,13 @@
     font-weight: 500;
     text-align: center;
 }
-
 .section-2-content p {
-    font-size: 15px;
-    color: #fff;
-    font-weight: 400;
-    line-height: 28px;
-    font-family: 'Josefin Sans', sans-serif;
+	font-size: 15px;
+	color: #fff;
+	font-weight: 400;
+	line-height: 28px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 20px;
 }
 
 .section-2-content .section-2-item {
@@ -687,6 +687,10 @@
     width: 100%;
     height: 500px;
     object-fit: cover;
+}
+.slider-outer img{
+    width: 100%;
+
 }
 @media(max-width:767px){
     .process-content .item .item-inner{

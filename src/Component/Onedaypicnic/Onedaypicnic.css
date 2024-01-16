@@ -44,8 +44,10 @@
     height: 400px;
     width: 100%;
 }
-.delight-outer .delight-inner .item .image-block img{
-    border-radius: 10px;
+.delight-outer .delight-inner .item .image-block img {
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
 }
 
 .delight-outer .delight-inner .item .text {
