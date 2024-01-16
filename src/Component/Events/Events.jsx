@@ -2,8 +2,8 @@ import React from 'react'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import slide1 from '../../assets/image/meerigefunction/merrige view.jpeg'
-import slide2 from '../../assets/image/meerigefunction/watermerrige.jpeg'
+import slide1 from '../../assets/image/marrigre/me5.png'
+import slide2 from '../../assets/image/marrigre/me6.png'
 import event_1 from '../../assets/image/event/e1.png'
 import event_2 from '../../assets/image/event/e2.png'
 import event_3 from '../../assets/image/event/e3.png'

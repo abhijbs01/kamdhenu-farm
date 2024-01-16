@@ -67,13 +67,13 @@ function Header() {
             <div className="nav-wrap">
               <ul className="nav-list">
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/" className='active'>About</Link></li>
-                <li><Link to="/">Villas On rent</Link></li>
-                <li><Link to="/">One day Picnic</Link></li>
+                <li><Link to="/about" className='active'>About</Link></li>
+                <li><Link to="/villaonrent">Villas On rent</Link></li>
+                <li><Link to="/onedaypicnic">One day Picnic</Link></li>
                 <li><Link to="/wedding">Wedding Function</Link></li>
                 <li><Link to="/event">Event</Link></li>
                 <li className="with-submenu">
-                  <Link to="/">Gallery</Link>
+                  <Link to="/photos">Gallery</Link>
                   <div className="submenu">
                     <ul className="submenu-inner">
                       <li><Link to="/photos">Photos</Link></li>

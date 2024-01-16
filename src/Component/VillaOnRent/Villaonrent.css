@@ -1,0 +1,165 @@
+.platinium-1-outer {
+    margin: 80px 0;
+}
+
+.platinium-1-outer .platinium-inner {
+    margin: 0 -15px;
+}
+
+.platanium-1 .item .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #000000;
+    padding-bottom: 20px;
+    line-height: 1.3;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.platanium-1 .item .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #000000;
+    padding-bottom: 20px;
+    line-height: 1.3;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.platanium-1 .item p {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.platanium-1 .item .service-1 .sub-title {
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: #000
+}
+
+.platanium-1 .item .service-1 .item {
+    margin-bottom: 10px;
+}
+
+.platanium-1 .item .service-1 .item .item-inner {
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    height: 120px;
+    text-align: center;
+}
+
+.platanium-1 .item .service-1 .item .item-inner img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 14px;
+}
+.platanium-1 .item .service-1 .item .item-inner .text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.villa-outer-outer {
+    margin: 80px 0;
+}
+
+.villa-outer-outer .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: #703b2b;
+    color: #fff;
+}
+
+.villa-outer-outer .nav-link {
+    color: #000;
+}
+
+.villa-outer-outer .villa-item .item {
+    align-items: center;
+    display: flex;
+}
+
+.villa-rules-outer {
+    display: block;
+    width: 100%;
+    margin: 80px 0;
+}
+
+.villa-rules-outer .villa-rules-inner,
+.activity-outer .activites-inner {
+    margin: 0 -15px;
+}
+
+.villa-rules-outer .villa-rules-inner .tilte {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.villa-rules-outer .villa-rules-inner .item ul li {
+    color: #262626;
+    margin-bottom: 10px;
+}
+
+.villa-rules-outer .villa-rules-inner .item ul li span {
+    color: #703b2b;
+    margin-left: 10px;
+}
+
+.activity-outer {
+    display: block;
+    width: 100%;
+    margin: 80px 0;
+}
+
+.activity-outer .activity-item .item .item-inner {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    height: 100px;
+    padding: 12px;
+    text-align: center;
+}
+
+.activity-outer .activity-item .item .item-inner img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.general-outrer {
+	margin: 80px 0;
+}
+.general-outrer .general-content p{
+    font-size: 14px;
+    position: relative;
+    z-index: 32;
+    font-weight: 400;
+    color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+    margin-bottom:12px;
+    text-align: justify;
+}
+.general-outrer .image-block img{
+    border-radius: 10px;
+}
+.rent-block{
+	background-image: url('../../assets//image//entryview//entry2.png');
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 30px  0;
+    position: relative;
+	background-repeat: no-repeat;
+}
+.rent-block::after{
+    position: absolute;
+    content: "";
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:rgba(0, 0, 0, 0.8)
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import wedding_bg from '../../assets/image/meerigefunction/watermerrige.jpeg'
+import wedding_bg from '../../assets/image/marrigre/me5.png'
 import { Link } from 'react-router-dom'
 import './Wedding.css'
 import wedding_1 from '../../assets/image/wedding/phithi.jpeg'
@@ -15,16 +15,15 @@ import w9 from '../../assets/image/wedding/wed9.png'
 import w10 from '../../assets/image/wedding/wed10.png'
 import w11 from '../../assets/image/wedding/wed2.png'
 import w12 from '../../assets/image/wedding/wed3.png'
-import event1 from '../../assets/image/wedding/event1.jpg'
-import event2 from '../../assets/image/wedding/event2.jpg'
-import event3 from '../../assets/image/wedding/event3.jpg'
-import event4 from '../../assets/image/wedding/event4.jpg'
-import event5 from '../../assets/image/wedding/event5.jpg'
-import event6 from '../../assets/image/wedding/event6.jpg'
-import event7 from '../../assets/image/wedding/event7.jpg'
-import event8 from '../../assets/image/wedding/event8.jpg'
-import event9 from '../../assets/image/wedding/event9.jpg'
-
+import event1 from '../../assets/image/marrigre/me1.png';
+import event2 from '../../assets/image/marrigre/me2.png';
+import event3 from '../../assets/image/marrigre/me3.png';
+import event4 from '../../assets/image/marrigre/me4.png';
+import event5 from '../../assets/image/marrigre/me5.png';
+import event6 from '../../assets/image/marrigre/me6.png';
+import event7 from '../../assets/image/marrigre/me7.png';
+import event8 from '../../assets/image/marrigre/me8.png';
+import event9 from '../../assets/image/marrigre/me9.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { EffectCoverflow, Navigation, Pagination, Scrollbar } from 'swiper/modules';
@@ -32,9 +31,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+
+
 function Wedding() {
-
-
 
 
     const weddingItems = [
@@ -88,18 +87,19 @@ function Wedding() {
         },
 
     ];
+
     return (
         <div>
             {/* Coomon Slider */}
-            <div class="common-slider">
-                <div class="image-block">
-                    <img src={wedding_bg} alt="slider_image" />
-                    <div class="common-slider-content">
-                        <div className="title">Wedding Function</div>
-                        <div className="link"><Link to="/">Home</Link> - Wedding Function</div>
+                <div class="common-slider">
+                    <div class="image-block">
+                        <img src={wedding_bg} alt="slider_image" />
+                        <div class="common-slider-content">
+                            <div className="title">Wedding Function</div>
+                            <div className="link"><Link to="/">Home</Link> - Wedding Function</div>
+                        </div>
                     </div>
                 </div>
-            </div>
             {/* CONTACT US START */}
 
 
@@ -158,6 +158,7 @@ function Wedding() {
                         effect={'coverflow'}
                         grabCursor={true}
                         centeredSlides={true}
+                        autoplay={true}
                         loop={true}
                         slidesPerView={'auto'}
                         coverflowEffect={{
@@ -208,6 +209,33 @@ function Wedding() {
                     </Swiper>
                 </div>
             </div>
+
+            <div class="oneday-outer">
+                <div class="container">
+                    <div class="oneday-inner">
+                        <div class="section-title">
+                            <h1>Facilities</h1>
+                        </div>
+                        <div class="title"></div>
+                        <div class="onyday-content d-flex justify-content-center">
+                            <ul>
+                                <li><span className='mr-2'>&#10051;</span>4 Private gardens with river views.</li>
+                                <li><span className='mr-2'> &#10051;</span>Separate space for kitchen and catering services.</li>
+                                <li><span className='mr-2'>&#10051;</span>Surrounded by nature and river.</li>
+                                <li><span className='mr-2'>&#10051;</span>*Luxurious villas with river views. (Additions charges applies)</li>
+                                <li><span className='mr-2'>&#10051;</span>Surrounded by nature and river.</li>
+                                <li><span className='mr-2'>&#10051;</span>Stress free weddings operating since 2014.</li>
+                                <li><span className='mr-2'>&#10051;</span>Luxurious Banquet hall.</li>
+                                <li><span className='mr-2'>&#10051;</span>Lavis villas & Exclusive Riverside cottages to accommodate guests.</li>
+                                <li><span className='mr-2'>&#10051;</span>Unlimited parking space.</li>
+                                <li><span className='mr-2'>&#10051;</span>*Discotheque for Guests for music night.</li>
+                                <li><span className='mr-2'>&#10051;</span>Beautiful photo locations all onsite.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
         </div>
     )

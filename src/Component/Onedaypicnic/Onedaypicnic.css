@@ -1,0 +1,117 @@
+.picnic-our-outer {
+    display: block;
+    width: 100%;
+    margin: 80px 0;
+}
+
+.picnic-our-outer .picnic-our-inner {
+    margin: 0 -15px;
+}
+
+.picnic-our-outer .picnic-our-item .item .title {
+    font-size: 28px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.picnic-our-outer .picnic-our-item .item p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.picnic-our-outer .picnic-our-item .picnic-item .item .item-inner {
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    text-align: center;
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+.picnic-our-outer .picnic-our-item .picnic-item .item .item-inner img {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.delight-outer {
+    display: block;
+    width: 100%;
+    margin: 80px 0;
+}
+
+.delight-outer .delight-inner .item .image-block {
+    height: 400px;
+    width: 100%;
+}
+.delight-outer .delight-inner .item .image-block img{
+    border-radius: 10px;
+}
+
+.delight-outer .delight-inner .item .text {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.delight-outer .delight-inner {
+    margin: 0 -15px;
+}
+
+.delight-outer .delight-inner .item .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: #703b2b !important;
+    color: #fff;
+    width: 100%;
+}
+
+.delight-outer .delight-inner .item .nav-pills .nav-link {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.onyday-content ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.onyday-content ul li {
+    width: 50%;
+}
+
+.oneday-outer {
+    display: block;
+    width: 100%;
+    margin: 80px 0;
+}
+
+.oneday-outer .oneday-inner {
+    margin: 0 -15px;
+}
+
+.oneday-outer .oneday-inner .title {
+    font-size: 27px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.oneday-outer .oneday-inner .onyday-content ul {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.oneday-outer .oneday-inner .onyday-content ul li {
+    margin-bottom: 16px;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+}
+
+.oneday-outer .oneday-inner .onyday-content ul li span {
+    color: #703b2b;
+    margin-right: 14px;
+    display: block;
+}
