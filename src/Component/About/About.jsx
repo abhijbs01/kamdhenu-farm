@@ -10,10 +10,10 @@ import '../../Component/VillaOnRent/Villaonrent.css'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import well from '../../assets/image/well/well.JPG'
-import watershow from '../../assets/image/waterfall/w1.jpeg'
-import parking from '../../assets/image/parking/park2.JPG';
-import gajebo from '../../assets/image/gajebo/g3.JPG'
+// import well from '../../assets/image/well/well.JPG'
+// import watershow from '../../assets/image/waterfall/w1.jpeg'
+// import parking from '../../assets/image/parking/park2.JPG';
+// import gajebo from '../../assets/image/gajebo/g3.JPG'
 import farm1 from '../../assets/image/farmview/fv1.JPG'
 import farm2 from '../../assets/image/farmview/fv1.JPG'
 import farm3 from '../../assets/image/farmview/fv2.JPG'
@@ -115,19 +115,6 @@ function About() {
         animateIn: 'fadeIn',
         vertical: true,
     };
-    const testimonial = {
-        items: 1,
-        loop: true,
-        margin: 10,
-        autoplay: true,
-        autoplayTimeout: 3000,
-        autoplayHoverPause: true,
-        nav: false,
-        dots: false,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
-        vertical: true,
-    };
 
     return (
         <>
@@ -185,7 +172,7 @@ function About() {
             {/* ABOUT WELCOME END */}
 
             {/* OUR VALUE START */}
-            <div className="our-value-outer">
+            {/* <div className="our-value-outer">
                 <div className="container">
                     <div className="our-value-inner">
                         <div className="section-title">
@@ -317,12 +304,11 @@ function About() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* OUR VALUE END */}
 
             <div className="about-block">
                 <div className="general-outrer">
-                    <div className="container">
                         <div className="general-inner">
                             <div className="row general-item align-items-center">
                                 <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
@@ -372,11 +358,9 @@ function About() {
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
 
                 <div className="general-outrer">
-                    <div className="container">
                         <div className="general-inner">
                             <div className="row general-item align-items-center">
                                 <div className="col-lg-6 item">
@@ -411,11 +395,9 @@ function About() {
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
 
                 <div className="general-outrer">
-                    <div className="container">
                         <div className="general-inner">
                             <div className="row general-item align-items-center">
                                 <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
@@ -466,11 +448,9 @@ function About() {
 
                             </div>
                         </div>
-                    </div>
                 </div>
 
                 <div className="general-outrer">
-                    <div className="container">
                         <div className="general-inner">
                             <div className="row general-item align-items-center">
                                 <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
@@ -495,7 +475,6 @@ function About() {
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
 
 

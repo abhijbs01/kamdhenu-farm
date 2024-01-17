@@ -63,17 +63,12 @@ a {
 
 @media all and (min-width: 480px) and (max-width: 639px) {
 	.container {
-		max-width: 480px;
-		width: 100%;
-	}
-}
-
-@media all and (min-width: 320px) and (max-width: 480px) {
-	.container {
 		max-width: 320px;
 		width: 100%;
 	}
 }
+
+
 
 /* ====================HEADER========================= ====*/
 header {
@@ -495,7 +490,7 @@ footer::after {
 }
 @media(max-width:800px){
 	.nav-list li a{
-		font-size: 12px;
+		font-size: 8px;
 	
 	}
 	.nav-list li {

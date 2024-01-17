@@ -168,7 +168,6 @@
 }
 
 .wedding-function .swiper-3d .slider-controler .slider-arrow {
-    background: var(--white);
     width: 1.5rem;
     height: 3.5rem;
     border-radius: 50%;
@@ -180,10 +179,6 @@
 .wedding-function .swiper-3d .slider-controler .slider-arrow ion-icon {
     font-size: 2rem;
     color: #222224;
-}
-
-.wedding-function .swiper-3d .slider-controler .slider-arrow::after {
-    content: '';
 }
 
 .swiper-pagination {
@@ -237,20 +232,43 @@
         padding: 30px 0 !important;
         margin: 0 auto !important;
     }
+    .swiper-slide img {
+        width: 7rem !important;
+        height: 10rem !important;
+    }
+    .wedding-function .swiper-3d{
+        width: 200px;
+    }
 }
 
-@media (max-width: 500px) {
+
+@media (max-width: 479px) {
     .swiper_container {
         height: 47rem;
     }
 
     .swiper-slide {
-        width: 28rem !important;
-        height: 36rem !important;
+        width: 4rem !important;
+        height: 187px !important;
+    }
+    .swiper-wrapper {
+        margin: 0 -21px !important;
     }
 
     .swiper-slide img {
-        width: 28rem !important;
-        height: 36rem !important;
+        width: 7rem !important;
+        height: 10rem !important;
     }
+    .wedding-outer .wedding-inner .wedding-item .item p {
+        font-size: 14px
+    }
+    .wedding-function .swiper-3d{
+        width: 320px;
+    }
+    .slider-controler .swiper-pagination{
+        top:0!important;
+    }
+}
+.oneday-outer {
+	margin: 30px 0;
 }

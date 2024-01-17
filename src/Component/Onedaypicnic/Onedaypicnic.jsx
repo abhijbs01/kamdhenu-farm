@@ -148,7 +148,7 @@ function Onedaypicnic() {
                                 <div className="picnic-section">
                                     <div className="row picnic-item">
                                         {picnicItems.map((item) => (
-                                            <div key={item.id} className="col-lg-4 item">
+                                            <div key={item.id} className="col-lg-4 col-md-6 col-sm-12 item">
                                                 <div className="item-inner">
                                                     <img src={item.imageSrc} alt={item.text} />
                                                     <div className="text">{item.text}</div>
@@ -315,7 +315,6 @@ function Onedaypicnic() {
                         <div className="section-title">
                             <h1>Rules And Regulations</h1>
                         </div>
-                        <div className="title" />
                         <div className="onyday-content d-flex justify-content-center">
                             <ul>
                                 <li><span>☣</span>

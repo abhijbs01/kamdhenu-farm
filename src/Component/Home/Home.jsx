@@ -14,7 +14,6 @@ import event1 from '../../assets/image/wedding/phithi.jpeg'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-// import video from '../../assets/image/open the.mp4'
 import { Link } from 'react-router-dom'
 import main_image from '../../assets/image/footer_bg1.jpg'
 
@@ -47,9 +46,6 @@ function Home() {
     <div>
       {/* SLIDER START */}
       <div className="slider-outer">
-        {/* <video width={'100%'} height="400" autoPlay={true} loop controls={false} playsInline muted>
-          <source src={video} type="video/mp4" />
-        </video> */}
         <img src={main_image} alt="main_image" />
       </div>
 

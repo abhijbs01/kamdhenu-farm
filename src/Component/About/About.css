@@ -95,11 +95,10 @@
 .about-out-outer {
     position: relative;
     padding: 60px 0;
-    background-image: url('');
     background-position: center center;
     background-repeat: no-repeat;
     object-fit: cover;
-    background-image: url(../../assets//image//aboutus_bg.png);
+    background-image: url('../../assets//image//aboutus_bg.png');
     background-size: cover;
     height: 300px;
     margin: 40px 0;
@@ -157,17 +156,13 @@
     margin-top: 20px;
 }
 
-/* Main heading for inside page */
 .inside-page__heading {
-    padding-bottom: 1rem;
+    padding-bottom: 16px;
     width: 100%;
     font-family: 'Josefin Sans', sans-serif;
 
 }
 
-/* Mixed */
-
-/* For both inside page's main heading and 'view me' text on card front cover */
 .inside-page__heading,
 .card-front__text-view {
     font-size: 16px;
@@ -197,13 +192,11 @@
     color: #b03d19;
 }
 
-/* Front cover */
 
 .card-front__tp {
     color: #fafbfa;
 }
 
-/* For pricing text on card front cover */
 .card-front__text-price {
     font-size: 1.2rem;
     margin-top: -.2rem;
@@ -211,9 +204,7 @@
 
 }
 
-/* Back cover */
 
-/* For inside page's body text */
 .inside-page__text {
     color: #333;
     font-family: 'Josefin Sans', sans-serif;
@@ -221,7 +212,6 @@
 
 }
 
-/* Icons ===========================================*/
 
 .card-front__icon {
     fill: #fafbfa;
@@ -230,8 +220,6 @@
     margin-top: -.5rem;
     width: 3.25rem;
 }
-
-/* Buttons =================================================*/
 
 .inside-page__btn {
     background-color: transparent;
@@ -265,41 +253,12 @@
 
 .inside-page__btn--city {
     border-color: #b03d19;
-    color: #ff40a1;
     font-family: 'Josefin Sans', sans-serif;
 
 }
 
-.inside-page__btn--city::before {
-    background-color: #ff40a1;
-}
 
-.inside-page__btn--ski {
-    border-color: #279eb2;
-    color: #279eb2;
-}
 
-.inside-page__btn--ski::before {
-    background-color: #279eb2;
-}
-
-.inside-page__btn--beach {
-    border-color: #fa7f67;
-    color: #fa7f67;
-}
-
-.inside-page__btn--beach::before {
-    background-color: #fa7f67;
-}
-
-.inside-page__btn--camping {
-    border-color: #00b97d;
-    color: #00b97d;
-}
-
-.inside-page__btn--camping::before {
-    background-color: #00b97d;
-}
 
 .inside-page__btn:hover {
     color: #fafbfa;
@@ -314,7 +273,6 @@
     height: 80px;
 }
 
-/* Layout Structure=========================================*/
 
 .main {
     background: linear-gradient(to bottom right,
@@ -327,19 +285,15 @@
     width: 100%;
 }
 
-/* Container to hold all cards in one place */
 .card-area {
     align-items: center;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     height: 100%;
     justify-content: space-evenly;
     padding: 1rem;
 }
 
-/* Card ============================================*/
-
-/* Area to hold an individual card */
 .card-section {
     align-items: center;
     display: flex;
@@ -348,7 +302,6 @@
     width: 100%;
 }
 
-/* A container to hold the flip card and the inside page */
 .card {
     background-color: rgba(0, 0, 0, .05);
     box-shadow: -.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.5);
@@ -359,9 +312,7 @@
     z-index: 1;
 }
 
-/* Flip card - covering both the front and inside front page */
 
-/* An outer container to hold the flip card. This excludes the inside page */
 .flip-card {
     height: 15rem;
     perspective: 100rem;
@@ -373,13 +324,11 @@
     z-index: 100;
 }
 
-/* The outer container's visibility is set to hidden. This is to make everything within the container NOT set to hidden  */
-/* This is done so content in the inside page can be selected */
+
 .flip-card>* {
     visibility: visible;
 }
 
-/* An inner container to hold the flip card. This excludes the inside page */
 .flip-card__container {
     height: 100%;
     position: absolute;
@@ -400,16 +349,13 @@
     width: 100%;
 }
 
-/* Styling for the front side of the flip card */
 
-/* container for the front side */
 .card-front {
     background-color: #fafbfa;
     height: 15rem;
     width: 15rem;
 }
 
-/* Front side's top section */
 .card-front__tp {
     align-items: center;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 57% 90%, 50% 100%, 43% 90%, 0 90%);
@@ -436,21 +382,18 @@
     background: linear-gradient(to bottom, #99604d, #99604d);
 }
 
-/* Front card's bottom section */
 .card-front__bt {
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
-/* Styling for the back side of the flip card */
 
 .card-back {
     background-color: #fafbfa;
     transform: rotateY(180deg);
 }
 
-/* Specifically targeting the <video> element */
 .video__container {
     clip-path: polygon(0% 0%, 100% 0%, 90% 50%, 100% 100%, 0% 100%);
     height: auto;
@@ -459,7 +402,6 @@
     width: 100%;
 }
 
-/* Inside page */
 
 .inside-page {
     background-color: #fafbfa;
@@ -482,21 +424,17 @@
     padding: 20px;
 }
 
-/* Functionality ====================================*/
 
-/* This is to keep the card centered (within its container) when opened */
 .card:hover {
     box-shadow:
         -.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.75);
     width: 30rem;
 }
 
-/* When the card is hovered, the flip card container will rotate */
 .card:hover .flip-card__container {
     transform: rotateY(-180deg);
 }
 
-/* When the card is hovered, the shadow on the inside page will shrink to the left */
 .card:hover .inside-page {
     box-shadow: inset 1rem 0px 5rem -2.5rem rgba(0, 0, 0, 0.1);
 }
@@ -513,7 +451,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
-	padding: 30px  0;
+    padding: 30px 0;
 
 }
 
@@ -526,12 +464,39 @@
     bottom: 0;
     background: rgba(0, 0, 0, 0.8)
 }
-@media(max-width:640px){
-    .about-out-outer .about-out-content .title{
+
+@media(max-width:640px) {
+    .about-out-outer .about-out-content .title {
         font-size: 20px;
     }
-    .aboutus-welcome-item .item .title{
+
+    .aboutus-welcome-item .item .title {
         font-size: 18px;
         margin-bottom: 14px;
     }
+
+    .general-item .item {
+        margin-bottom: 20px;
+    }
+
+    .general-outrer {
+        margin: 30px 0;
+    }
+
+    .aboutus-welcome-item .item {
+        margin-bottom: 20px;
+    }
+
+    .card-section {
+        display: block !important;
+    }
+
+    .card:hover .inside-page {
+        display: none !important;
+    }
+
+    .about-welcome-outer {
+        margin: 30px 0;
+    }
+
 }

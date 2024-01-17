@@ -1,16 +1,18 @@
-import React, { useEffect } from 'react';
+import React, { useEffect,useRef  } from 'react';
 import header_logo from '../assets/image/header/kamdhenu_logo.png'
 import $ from 'jquery';
 import { Link } from 'react-router-dom';
 
 function Header() {
+  const navWrapRef = useRef(null);
+
   useEffect(() => {
     function headerAdj() {
       if (window.innerWidth < 767) {
         const headerHeight = $(".header").outerHeight();
-        $(".nav-wrap .nav-list").css({ "paddingTop": `${headerHeight}px` });
+        $(".nav-wrap .nav-list").css({ paddingTop: `${headerHeight}px` });
       } else {
-        $(".nav-wrap .nav-list").css({ "paddingTop": "0" });
+        $(".nav-wrap .nav-list").css({ paddingTop: '0' });
       }
     }
 
@@ -37,6 +39,17 @@ function Header() {
       $(".nav-wrap").removeClass("is-open");
     }
 
+    function handleOutsideClick(event) {
+      if (
+        navWrapRef.current &&
+        !navWrapRef.current.contains(event.target) &&
+        !$(".hamburger").is(event.target)
+      ) {
+        // Click is outside the nav-wrap and hamburger button
+        handleOverlayClick();
+      }
+    }
+
     headerAdj();
     submenuToggle();
 
@@ -48,13 +61,18 @@ function Header() {
       submenuToggle();
     });
 
+    // Add event listener for outside clicks
+    $(document).on("click", handleOutsideClick);
+
     return () => {
       // Cleanup event listeners
       $(window).off("resize");
       $(".hamburger").off("click");
       $(".overlay").off("click");
+      // Remove the outside click listener
+      $(document).off("click", handleOutsideClick);
     };
-  }, []);
+  }, [navWrapRef]);
   return (
     <>
       {/* ======= */}

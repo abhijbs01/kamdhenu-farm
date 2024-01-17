@@ -234,7 +234,6 @@ function Villaonrent() {
             <div className="rent-block">
                 {/*GENERAL ROOM START */}
                 <div className="general-outrer">
-                    <div className="container">
                         <div className="general-inner">
                             <div className="row general-item align-items-center">
                                 <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
@@ -288,13 +287,11 @@ function Villaonrent() {
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
                 {/* GEERAL ROOM END */}
 
                 {/*  VIP ROOM  START    */}
                 <div className="general-outrer">
-                    <div className="container">
                         <div className="general-inner">
                             <div className="row general-item align-items-center">
                                 <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
@@ -349,13 +346,11 @@ function Villaonrent() {
 
                             </div>
                         </div>
-                    </div>
                 </div>
                 {/*  VIP ROOM  END    */}
 
                 {/* YAGNAKUND START */}
                 <div className="general-outrer">
-                    <div className="container">
                         <div className="general-inner">
                             <div className="row general-item align-items-center">
                                 <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
@@ -401,13 +396,11 @@ function Villaonrent() {
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
                 {/* YAGNAKUND END */}
 
 
                 <div className="general-outrer">
-                    <div className="container">
                         <div className="general-inner">
                             <div className="row general-item align-items-center">
                                 <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
@@ -436,7 +429,6 @@ function Villaonrent() {
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
 
 

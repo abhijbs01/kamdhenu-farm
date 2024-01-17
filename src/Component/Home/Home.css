@@ -7,7 +7,7 @@
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 24px;
     text-transform: capitalize;
     line-height: 30px;
     margin-bottom: 50px;
@@ -25,6 +25,9 @@
 
 .section-1-outer .section-inner .section1-item img {
     width: 100%;
+}
+.align-items-center div {
+	margin-bottom: 22px;
 }
 
 .section-1-outer .section-inner .section1-item::before {
