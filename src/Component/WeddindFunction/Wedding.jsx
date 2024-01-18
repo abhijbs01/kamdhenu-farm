@@ -34,8 +34,6 @@ import 'swiper/css/scrollbar';
 
 
 function Wedding() {
-
-
     const weddingItems = [
         {
             imageSrc: w1,
@@ -91,15 +89,15 @@ function Wedding() {
     return (
         <div>
             {/* Coomon Slider */}
-                <div class="common-slider">
-                    <div class="image-block">
-                        <img src={wedding_bg} alt="slider_image" />
-                        <div class="common-slider-content">
-                            <div className="title">Wedding Function</div>
-                            <div className="link"><Link to="/">Home</Link> - Wedding Function</div>
-                        </div>
+            <div className="common-slider">
+                <div className="image-block">
+                    <img src={wedding_bg} alt="slider_image" />
+                    <div className="common-slider-content">
+                        <div className="title">Wedding Function</div>
+                        <div className="link"><Link to="/">Home</Link> - Wedding Function</div>
                     </div>
                 </div>
+            </div>
             {/* CONTACT US START */}
 
 
@@ -219,17 +217,39 @@ function Wedding() {
                         <div class="title"></div>
                         <div class="onyday-content d-flex justify-content-center">
                             <ul>
-                                <li><span className='mr-2'>&#10051;</span>4 Private gardens with river views.</li>
-                                <li><span className='mr-2'> &#10051;</span>Separate space for kitchen and catering services.</li>
-                                <li><span className='mr-2'>&#10051;</span>Surrounded by nature and river.</li>
-                                <li><span className='mr-2'>&#10051;</span>*Luxurious villas with river views. (Additions charges applies)</li>
-                                <li><span className='mr-2'>&#10051;</span>Surrounded by nature and river.</li>
-                                <li><span className='mr-2'>&#10051;</span>Stress free weddings operating since 2014.</li>
-                                <li><span className='mr-2'>&#10051;</span>Luxurious Banquet hall.</li>
-                                <li><span className='mr-2'>&#10051;</span>Lavis villas & Exclusive Riverside cottages to accommodate guests.</li>
-                                <li><span className='mr-2'>&#10051;</span>Unlimited parking space.</li>
-                                <li><span className='mr-2'>&#10051;</span>*Discotheque for Guests for music night.</li>
-                                <li><span className='mr-2'>&#10051;</span>Beautiful photo locations all onsite.</li>
+                                <li><span className='mr-2'>&#10051;</span>
+                                    <div>4 Private gardens with river views.</div>
+                                </li>
+                                <li><span className='mr-2'> &#10051;</span>
+                                    <div>Separate space for kitchen and catering services.</div>
+                                </li>
+                                <li><span className='mr-2'>&#10051;</span>
+                                    <div>Surrounded by nature and river.</div>
+                                </li>
+                                <li><span className='mr-2'>&#10051;</span>
+                                    <div>*Luxurious villas with river views. (Additions charges applies)</div>
+                                </li>
+                                <li><span className='mr-2'>&#10051;</span>
+                                    <div>Surrounded by nature and river.</div>
+                                </li>
+                                <li><span className='mr-2'>&#10051;</span>
+                                    <div>Stress free weddings operating since 2014.</div>
+                                </li>
+                                <li><span className='mr-2'>&#10051;</span>
+                                    <div>Luxurious Banquet hall.</div>
+                                </li>
+                                <li><span className='mr-2'>&#10051;</span>
+                                    <div>Lavis villas & Exclusive Riverside cottages to accommodate guests</div>
+                                    .</li>
+                                <li><span className='mr-2'>&#10051;</span>
+                                    <div>Unlimited parking space.</div>
+                                </li>
+                                <li><span className='mr-2'>&#10051;</span>
+                                    <div>*Discotheque for Guests for music night.</div>
+                                </li>
+                                <li><span className='mr-2'>&#10051;</span>
+                                    <div>Beautiful photo locations all onsite.</div>
+                                </li>
                             </ul>
                         </div>
                     </div>

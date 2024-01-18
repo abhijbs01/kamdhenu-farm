@@ -12,6 +12,7 @@ import event_5 from '../../assets/image/event/e5.png'
 import event_6 from '../../assets/image/event/e6.png'
 import event_7 from '../../assets/image/event/e7.png'
 import '../Events/Event.css'
+import { Link } from 'react-router-dom';
 
 
 function Events() {
@@ -120,7 +121,7 @@ function Events() {
                 <div className="container">
                     <div className="about-out-content">
                         <div className="title">Get all the help you need from RIO to organize events</div>
-                        <a className="btn">Plan your Event</a>
+                        <Link to="/contactpage" className="btn">Plan your Event</Link>
                     </div>
                 </div>
             </div>
@@ -186,7 +187,7 @@ function Events() {
                 </div>
             </section>
             {/* EVENT 3 END */}
-        </div >
+        </div>
     )
 }
 

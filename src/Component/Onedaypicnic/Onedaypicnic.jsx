@@ -112,10 +112,10 @@ function Onedaypicnic() {
     return (
         <div>
             {/* COMMON BLOCK START */}
-            <div class="common-slider">
-                <div class="image-block">
+            <div className="common-slider">
+                <div className="image-block">
                     <img src={onedaypicnic} alt="slider_image" />
-                    <div class="common-slider-content">
+                    <div className="common-slider-content">
                         <div className="title">One Day Picnic</div>
                         <div className="link"><Link to="/">Home</Link> - One Day Picnic</div>
                     </div>
@@ -317,39 +317,39 @@ function Onedaypicnic() {
                         </div>
                         <div className="onyday-content d-flex justify-content-center">
                             <ul>
-                                <li><span>☣</span>
+                                <li><span className="mr-2">☣</span>
                                     <div> Day Picnic Hours 09:00 Am To 09:00 Pm Only</div>
                                 </li>
-                                <li><span>☣</span>
+                                <li><span className="mr-2">☣</span>
                                     <div>  Proof Of Age And Photo Id Required For All Children</div>
                                 </li>
-                                <li><span>☣</span>
+                                <li><span className="mr-2">☣</span>
                                     <div>   Children Bellow The Age Of 14 Years Are Not Allowed To Play Paintball</div>
                                 </li>
-                                <li><span>☣</span>
+                                <li><span className="mr-2">☣</span>
                                     <div>  Lunch Timing: 12:00pm To 02:00pm</div>
                                 </li>
-                                <li><span>☣</span>
+                                <li><span className="mr-2">☣</span>
                                     <div>Additional Sporting Activities Are Also Available On Chargeable Bases</div>
                                 </li>
-                                <li><span>☣</span>
+                                <li><span className="mr-2">☣</span>
                                     <div>All Special Requests Will Be Considered At Sole Discretion Of The
                                         Management</div>
                                 </li>
-                                <li><span>☣</span>
+                                <li><span className="mr-2">☣</span>
                                     <div>No Charge For Children Under The Age Of 3 Years</div>
                                 </li>
-                                <li><span>☣</span>
+                                <li><span className="mr-2">☣</span>
                                     <div> Swimming Costume Is Compulsory. Swimming Rules And Policies Apply</div>
                                 </li>
-                                <li><span>☣</span>
+                                <li><span className="mr-2">☣</span>
                                     <div>  All Meals Will Be Vegetarian As Per Chef's Choice &amp; Will Be Served At
                                         Shamiyana Restaurant</div>
                                 </li>
-                                <li><span>☣</span>
+                                <li><span className="mr-2">☣</span>
                                     <div>     Hot Tea Timing: 04:00pm To 05:00pm</div>
                                 </li>
-                                <li><span>☣</span>
+                                <li><span className="mr-2">☣</span>
                                     <div>  While Departing, Takeaway Goodies Will Be Given To Each Guest</div>
                                 </li>
                             </ul>

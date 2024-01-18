@@ -58,7 +58,7 @@ function About() {
         dots: false,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
-        vertical: true,
+        vertical: 'true',
     };
 
     const Farmview = {
@@ -72,7 +72,7 @@ function About() {
         dots: false,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
-        vertical: true,
+        vertical: 'true',
     };
 
     const Entryview = {
@@ -86,7 +86,7 @@ function About() {
         dots: false,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
-        vertical: true,
+        vertical: 'true',
     };
 
     const Villagelocation = {
@@ -100,7 +100,7 @@ function About() {
         dots: false,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
-        vertical: true,
+        vertical: 'true',
     };
     const office = {
         items: 1,
@@ -113,14 +113,14 @@ function About() {
         dots: false,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
-        vertical: true,
+        vertical: 'true',
     };
 
     return (
-        <>
+        <div>
             {/* COMMON BLOCK START */}
-            <div class="common-slider">
-                <div class="image-block">
+            <div className="common-slider">
+                <div className="image-block">
                     <img src={aboutus} alt="slider_image" />
                     <div class="common-slider-content">
                         <div className="title">About Us</div>
@@ -487,7 +487,7 @@ function About() {
                 </div>
             </div>
 
-        </>
+        </div>
     )
 }
 

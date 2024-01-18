@@ -2,6 +2,7 @@ import React from 'react'
 import contact_bg from '../../assets/image/gajebo/g1.JPG'
 import '../Contactus/Contactpage.css'
 import { Link } from 'react-router-dom';
+
 function Contactpage() {
     return (
         <div>
@@ -39,9 +40,9 @@ function Contactpage() {
                                     <div className="col-md-2">
                                         <div className="right_conatct_social_icon d-flex align-items-end">
                                             <div className="socil_item_inner d-flex justify-content-center">
-                                                <li><a href="#"><i className="fab fa-facebook-square" /></a></li>
-                                                <li><a href="#"><i className="fab fa-instagram" /></a></li>
-                                                <li><a href="#"><i className="fab fa-twitter" /></a></li>
+                                                <li><Link to="/"><i className="fab fa-facebook-square" /></Link></li>
+                                                <li><Link to="/"><i className="fab fa-instagram" /></Link></li>
+                                                <li><Link to="/"><i className="fab fa-twitter" /></Link></li>
                                             </div>
                                         </div>
                                     </div>
@@ -72,9 +73,16 @@ function Contactpage() {
                 <div className="container">
                     <div className="col-lg-12 ">
                         <div className="map_inner">
-                            <div className="map_bind">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7439.309138026664!2d72.95783!3d21.205877!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be045e038d25d57%3A0xef56eaa1ce593cae!2sKamdhenu%20Gau-Jatan!5e0!3m2!1sen!2sin!4v1700405206637!5m2!1sen!2sin" width="100%" height={450} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
-                            </div>
+                            <iframe
+                                title="Google Maps Embed"
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7439.309138026664!2d72.95783!3d21.205877!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be045e038d25d57%3A0xef56eaa1ce593cae!2sKamdhenu%20Gau-Jatan!5e0!3m2!1sen!2sin!4v1700405206637!5m2!1sen!2sin"
+                                width="100%"
+                                height={450}
+                                style={{ border: 0 }}
+                                allowFullScreen
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                            />
                         </div>
                     </div>
                 </div>

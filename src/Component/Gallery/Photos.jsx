@@ -55,10 +55,10 @@ function Photos() {
     return (
         <div>
             {/* Coomon Slider */}
-            <div class="common-slider">
-                <div class="image-block">
+            <div className="common-slider">
+                <div className="image-block">
                     <img src={photos_bg} alt="slider_image" />
-                    <div class="common-slider-content">
+                    <div className="common-slider-content">
                         <div className="title">Photos</div>
                         <div className="link"><Link to="/">Home</Link> - Photos</div>
                     </div>

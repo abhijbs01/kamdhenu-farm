@@ -1,4 +1,4 @@
-import React, { useEffect,useRef  } from 'react';
+import React, { useEffect, useRef } from 'react';
 import header_logo from '../assets/image/header/kamdhenu_logo.png'
 import $ from 'jquery';
 import { Link } from 'react-router-dom';
@@ -74,13 +74,13 @@ function Header() {
     };
   }, [navWrapRef]);
   return (
-    <>
+    <div>
       {/* ======= */}
       <header className="header">
         <div className="container">
           <div className="row-wrap">
             <div className="logo-wrap m-auto">
-              <span className="logo"><img src={header_logo} alt="header_logo" width={80} hight={80}/></span>
+              <span className="logo"><img src={header_logo} alt="header_logo" width={80} hight={80} /></span>
             </div>
             <div className="nav-wrap">
               <ul className="nav-list">
@@ -110,7 +110,7 @@ function Header() {
           </div>
         </div>
       </header>
-    </>
+    </div>
   )
 }
 

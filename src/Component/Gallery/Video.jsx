@@ -7,11 +7,11 @@ function Video() {
     return (
         <div>
             {/* Coomon Slider */}
-            <div class="common-slider">
-                <div class="image-block">
+            <div className="common-slider">
+                <div className="image-block">
 
                     <img src={video_bg} alt="slider_image" />
-                    <div class="common-slider-content">
+                    <div className="common-slider-content">
                         <div className="title">Video</div>
                         <div className="link"><Link to="/">Home</Link> - Video</div>
                     </div>

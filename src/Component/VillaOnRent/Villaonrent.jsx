@@ -77,7 +77,7 @@ function Villaonrent() {
         loop: true,
         margin: 10,
         autoplayTimeout: 3000,
-
+        vertical: 'true',
         autoplay: true,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
@@ -101,6 +101,7 @@ function Villaonrent() {
         loop: true,
         margin: 10,
         autoplay: true,
+        vertical: 'true',
         autoplayTimeout: 3000,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
@@ -124,6 +125,7 @@ function Villaonrent() {
         loop: true,
         margin: 10,
         autoplay: true,
+        vertical: 'true',
         autoplayTimeout: 3000,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
@@ -152,12 +154,12 @@ function Villaonrent() {
     ];
 
     return (
-        <>
+        <div>
             {/* COMMON BLOCK START */}
-            <div class="common-slider">
-                <div class="image-block">
+            <div className="common-slider">
+                <div className="image-block">
                     <img src={villonrent_bg} alt="slider_image" />
-                    <div class="common-slider-content">
+                    <div className="common-slider-content">
                         <div className="title">Villa On Rent</div>
                         <div className="link"><Link to="/">Home</Link> - Villa On Rent</div>
                     </div>
@@ -234,205 +236,205 @@ function Villaonrent() {
             <div className="rent-block">
                 {/*GENERAL ROOM START */}
                 <div className="general-outrer">
-                        <div className="general-inner">
-                            <div className="row general-item align-items-center">
-                                <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
-                                    <OwlCarousel className="owl-theme" {...Geberalroom}>
-                                        <div className="image-block">
-                                            <img src={gen1} alt="generalroom" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={gen2} alt="generalroom" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={gen3} alt="generalroom" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={gen4} alt="generalroom" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={gen5} alt="generalroom" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={gen6} alt="generalroom" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={gen8} alt="generalroom" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={gen9} alt="generalroom" />
-                                        </div>
-                                    </OwlCarousel>
-
-                                </div>
-                                <div className="col-lg-6 item" data-aos="fade-left" data-aos-duration="3000">
-                                    <div className="general-content">
-                                        <p>Indulge in the luxurious yet homely atmosphere of Kamdhenu Gaujatan Farm's General Rooms,
-                                            offering a total of 30 elegantly designed spaces. Each room is a haven of comfort, featuring
-                                            air conditioning to create a pleasant ambiance, ensuring a relaxing stay regardless of the weather
-                                            . The carefully selected furnishings include cozy beds that guarantee a restful night's sleep,
-                                            while the provision of lockers adds a touch of convenience for securing valuables.
-                                        </p>
-                                        <p>At Kamdhenu Gaujatan Farm, we go beyond the ordinary to deliver an exceptional experience.
-                                            Our General Rooms are thoughtfully equipped with facilities that cater to your every need
-                                            , embodying our commitment to guest satisfaction. Immerse yourself in the serene surroundings
-                                            of the farm, where modern amenities seamlessly blend with nature's tranquility.</p>
-
-                                        <p>  Whether you are here for a weekend retreat or a business escapade, our General Rooms provide
-                                            a perfect blend of comfort and functionality. Embrace the warmth of our hospitality as you
-                                            unwind in an environment designed to exceed your expectations. Kamdhenu Gaujatan Farm invites
-                                            you to experience a harmonious blend of modernity and rural charm, ensuring an unforgettable
-                                            stay for all our valued guests.</p>
+                    <div className="general-inner">
+                        <div className="row general-item align-items-center">
+                            <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
+                                <OwlCarousel className="owl-theme" {...Geberalroom}>
+                                    <div className="image-block">
+                                        <img src={gen1} alt="generalroom" />
                                     </div>
+                                    <div className="image-block">
+                                        <img src={gen2} alt="generalroom" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={gen3} alt="generalroom" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={gen4} alt="generalroom" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={gen5} alt="generalroom" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={gen6} alt="generalroom" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={gen8} alt="generalroom" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={gen9} alt="generalroom" />
+                                    </div>
+                                </OwlCarousel>
+
+                            </div>
+                            <div className="col-lg-6 item" data-aos="fade-left" data-aos-duration="3000">
+                                <div className="general-content">
+                                    <p>Indulge in the luxurious yet homely atmosphere of Kamdhenu Gaujatan Farm's General Rooms,
+                                        offering a total of 30 elegantly designed spaces. Each room is a haven of comfort, featuring
+                                        air conditioning to create a pleasant ambiance, ensuring a relaxing stay regardless of the weather
+                                        . The carefully selected furnishings include cozy beds that guarantee a restful night's sleep,
+                                        while the provision of lockers adds a touch of convenience for securing valuables.
+                                    </p>
+                                    <p>At Kamdhenu Gaujatan Farm, we go beyond the ordinary to deliver an exceptional experience.
+                                        Our General Rooms are thoughtfully equipped with facilities that cater to your every need
+                                        , embodying our commitment to guest satisfaction. Immerse yourself in the serene surroundings
+                                        of the farm, where modern amenities seamlessly blend with nature's tranquility.</p>
+
+                                    <p>  Whether you are here for a weekend retreat or a business escapade, our General Rooms provide
+                                        a perfect blend of comfort and functionality. Embrace the warmth of our hospitality as you
+                                        unwind in an environment designed to exceed your expectations. Kamdhenu Gaujatan Farm invites
+                                        you to experience a harmonious blend of modernity and rural charm, ensuring an unforgettable
+                                        stay for all our valued guests.</p>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
                 {/* GEERAL ROOM END */}
 
                 {/*  VIP ROOM  START    */}
                 <div className="general-outrer">
-                        <div className="general-inner">
-                            <div className="row general-item align-items-center">
-                                <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
-                                    <div className="general-content">
+                    <div className="general-inner">
+                        <div className="row general-item align-items-center">
+                            <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
+                                <div className="general-content">
 
-                                        <p>Indulge in the epitome of comfort with opulent furnishings, and revel in the spaciousness that defines our VIP Rooms. Each room is a sanctuary of sophistication, boasting modern amenities to meet the highest standards of luxury travel. From premium bedding to personalized concierge service, we prioritize every detail to exceed your expectations.</p>
-                                        <p>Elevate your stay at Kamdhenu Gaujatan Farm with our exclusive VIP Rooms, where luxury meets unparalleled service. Our four meticulously designed VIP accommodations offer a lavish retreat with a comprehensive range of facilities and services to ensure an extraordinary experience.
-                                            Indulge in the epitome of comfort with opulent furnishings, and revel in the spaciousness that defines our VIP Rooms. Each room is a sanctuary of sophistication, boasting modern amenities to meet the highest standards of luxury travel. From premium bedding to personalized concierge service, we prioritize every detail to exceed your expectations.
-                                            The VIP Rooms at Kamdhenu Gaujatan Farm are equipped with cutting-edge technology, providing seamless connectivity for both business and leisure travelers. Experience a culinary journey with our in-room dining services, offering a curated menu of gourmet delights. The expansive windows in each room provide panoramic views of the picturesque surroundings, allowing you to immerse yourself in the natural beauty of the farm.</p>
-                                        <p>Our commitment to excellence extends beyond the rooms, as our dedicated staff ensures prompt and personalized service throughout your stay. Enjoy exclusive access to additional amenities, such as a private lounge and priority reservations for on-site activities.</p>
-                                        <p>At Kamdhenu Gaujatan Farm, we redefine luxury by seamlessly blending modern elegance with traditional charm, creating an unforgettable haven for our discerning guests. Whether you're here for business or leisure, our VIP Rooms promise a stay that transcends expectations, delivering an unparalleled level of comfort and sophistication.</p>
+                                    <p>Indulge in the epitome of comfort with opulent furnishings, and revel in the spaciousness that defines our VIP Rooms. Each room is a sanctuary of sophistication, boasting modern amenities to meet the highest standards of luxury travel. From premium bedding to personalized concierge service, we prioritize every detail to exceed your expectations.</p>
+                                    <p>Elevate your stay at Kamdhenu Gaujatan Farm with our exclusive VIP Rooms, where luxury meets unparalleled service. Our four meticulously designed VIP accommodations offer a lavish retreat with a comprehensive range of facilities and services to ensure an extraordinary experience.
+                                        Indulge in the epitome of comfort with opulent furnishings, and revel in the spaciousness that defines our VIP Rooms. Each room is a sanctuary of sophistication, boasting modern amenities to meet the highest standards of luxury travel. From premium bedding to personalized concierge service, we prioritize every detail to exceed your expectations.
+                                        The VIP Rooms at Kamdhenu Gaujatan Farm are equipped with cutting-edge technology, providing seamless connectivity for both business and leisure travelers. Experience a culinary journey with our in-room dining services, offering a curated menu of gourmet delights. The expansive windows in each room provide panoramic views of the picturesque surroundings, allowing you to immerse yourself in the natural beauty of the farm.</p>
+                                    <p>Our commitment to excellence extends beyond the rooms, as our dedicated staff ensures prompt and personalized service throughout your stay. Enjoy exclusive access to additional amenities, such as a private lounge and priority reservations for on-site activities.</p>
+                                    <p>At Kamdhenu Gaujatan Farm, we redefine luxury by seamlessly blending modern elegance with traditional charm, creating an unforgettable haven for our discerning guests. Whether you're here for business or leisure, our VIP Rooms promise a stay that transcends expectations, delivering an unparalleled level of comfort and sophistication.</p>
+                                </div>
+                            </div>
+                            <div className="col-lg-6 item" data-aos="fade-left" data-aos-duration="3000">
+                                <OwlCarousel className="owl-theme" {...Viproom}>
+                                    <div className="image-block">
+                                        <img src={vip1} alt="viproom" />
                                     </div>
-                                </div>
-                                <div className="col-lg-6 item" data-aos="fade-left" data-aos-duration="3000">
-                                    <OwlCarousel className="owl-theme" {...Viproom}>
-                                        <div className="image-block">
-                                            <img src={vip1} alt="viproom" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={vip2} alt="viproom" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={vip3} alt="viproom" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={vip4} alt="viproom" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={vip5} alt="viproom" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={vip6} alt="viproom" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={vip7} alt="viproom" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={vip8} alt="viproom" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={vip9} alt="viproom" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={vip10} alt="viproom" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={vip11} alt="viproom" />
-                                        </div>
-                                    </OwlCarousel>
-
-                                </div>
+                                    <div className="image-block">
+                                        <img src={vip2} alt="viproom" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={vip3} alt="viproom" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={vip4} alt="viproom" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={vip5} alt="viproom" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={vip6} alt="viproom" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={vip7} alt="viproom" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={vip8} alt="viproom" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={vip9} alt="viproom" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={vip10} alt="viproom" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={vip11} alt="viproom" />
+                                    </div>
+                                </OwlCarousel>
 
                             </div>
+
                         </div>
+                    </div>
                 </div>
                 {/*  VIP ROOM  END    */}
 
                 {/* YAGNAKUND START */}
                 <div className="general-outrer">
-                        <div className="general-inner">
-                            <div className="row general-item align-items-center">
-                                <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
-                                    <OwlCarousel className="owl-theme" {...yagnakun}>
-                                        <div className="image-block">
-                                            <img src={yagna1} alt="yagnakund" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={yagna2} alt="yagnakund" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={yagna3} alt="yagnakund" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={yagna4} alt="yagnakund" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={yagna5} alt="yagnakund" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={yagna6} alt="yagnakund" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={yagna7} alt="yagnakund" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={yagna8} alt="yagnakund" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={yagna9} alt="yagnakund" />
-                                        </div>
-
-                                    </OwlCarousel>
-
-                                </div>
-                                <div className="col-lg-6 item" data-aos="fade-left" data-aos-duration="3000">
-                                    <div className="general-content">
-                                        <p>Embark on a divine journey at Kamdhenu Gaujatan Farm, where we offer the perfect setting for your religious ceremonies and spiritual gatherings. Our farm presents a unique opportunity to rent a dedicated space for Yagan Vidhi and other Dharmik Vidhi, providing a serene and sacred atmosphere for your religious functions.</p>
-                                        <p>Nestled amidst nature, our farm is designed to be a tranquil haven, allowing devotees to immerse themselves in the spirituality of the occasion. The farm house for rent is specially curated to cater to religious events, with spacious interiors and outdoor areas to accommodate the sacred rituals and gatherings.</p>
-                                        <p>Experience the harmonious blend of traditional and modern amenities, ensuring a seamless and reverent execution of your religious functions. From lush green surroundings to well-maintained spaces, our farm house provides an ideal backdrop for connecting with the divine</p>
-                                        <p>Our dedicated staff is committed to ensuring that your religious events unfold smoothly, offering assistance and support throughout your stay. Kamdhenu Gaujatan Farm extends a warm invitation to those seeking a sacred space for Yagan Vidhi and other Dharmik Vidhi, where spirituality meets tranquility in perfect harmony. Rent our farm house to create cherished memories and celebrate your religious occasions with reverence and grace.</p>
+                    <div className="general-inner">
+                        <div className="row general-item align-items-center">
+                            <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
+                                <OwlCarousel className="owl-theme" {...yagnakun}>
+                                    <div className="image-block">
+                                        <img src={yagna1} alt="yagnakund" />
                                     </div>
+                                    <div className="image-block">
+                                        <img src={yagna2} alt="yagnakund" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={yagna3} alt="yagnakund" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={yagna4} alt="yagnakund" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={yagna5} alt="yagnakund" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={yagna6} alt="yagnakund" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={yagna7} alt="yagnakund" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={yagna8} alt="yagnakund" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={yagna9} alt="yagnakund" />
+                                    </div>
+
+                                </OwlCarousel>
+
+                            </div>
+                            <div className="col-lg-6 item" data-aos="fade-left" data-aos-duration="3000">
+                                <div className="general-content">
+                                    <p>Embark on a divine journey at Kamdhenu Gaujatan Farm, where we offer the perfect setting for your religious ceremonies and spiritual gatherings. Our farm presents a unique opportunity to rent a dedicated space for Yagan Vidhi and other Dharmik Vidhi, providing a serene and sacred atmosphere for your religious functions.</p>
+                                    <p>Nestled amidst nature, our farm is designed to be a tranquil haven, allowing devotees to immerse themselves in the spirituality of the occasion. The farm house for rent is specially curated to cater to religious events, with spacious interiors and outdoor areas to accommodate the sacred rituals and gatherings.</p>
+                                    <p>Experience the harmonious blend of traditional and modern amenities, ensuring a seamless and reverent execution of your religious functions. From lush green surroundings to well-maintained spaces, our farm house provides an ideal backdrop for connecting with the divine</p>
+                                    <p>Our dedicated staff is committed to ensuring that your religious events unfold smoothly, offering assistance and support throughout your stay. Kamdhenu Gaujatan Farm extends a warm invitation to those seeking a sacred space for Yagan Vidhi and other Dharmik Vidhi, where spirituality meets tranquility in perfect harmony. Rent our farm house to create cherished memories and celebrate your religious occasions with reverence and grace.</p>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
                 {/* YAGNAKUND END */}
 
 
                 <div className="general-outrer">
-                        <div className="general-inner">
-                            <div className="row general-item align-items-center">
-                                <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
-                                    <div className="general-content">
+                    <div className="general-inner">
+                        <div className="row general-item align-items-center">
+                            <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
+                                <div className="general-content">
 
-                                        <p>The "gajebo" at Kamdhenu Gautjan Farm is a charming retreat within the rustic beauty of the venue. Nestled amidst the sprawling greenery, the gajebo serves as an intimate haven for gatherings and moments of reflection. Adorned with traditional decor and rustic charm, it provides a picturesque backdrop for events like weddings, family functions, or serene get-togethers.</p>
-                                        <p>Surrounded by vibrant flora, the gajebo offers a touch of nature's elegance, creating a serene atmosphere for guests to immerse themselves in. Whether it's a small ceremony or a cozy celebration, the gajebo at Kamdhenu Gautjan Farm encapsulates the essence of tranquility and rustic allure. This carefully crafted space within the farm complements the overall ambiance, ensuring that every event held beneath its shelter becomes a memorable and enchanting experience for all.</p>
+                                    <p>The "gajebo" at Kamdhenu Gautjan Farm is a charming retreat within the rustic beauty of the venue. Nestled amidst the sprawling greenery, the gajebo serves as an intimate haven for gatherings and moments of reflection. Adorned with traditional decor and rustic charm, it provides a picturesque backdrop for events like weddings, family functions, or serene get-togethers.</p>
+                                    <p>Surrounded by vibrant flora, the gajebo offers a touch of nature's elegance, creating a serene atmosphere for guests to immerse themselves in. Whether it's a small ceremony or a cozy celebration, the gajebo at Kamdhenu Gautjan Farm encapsulates the essence of tranquility and rustic allure. This carefully crafted space within the farm complements the overall ambiance, ensuring that every event held beneath its shelter becomes a memorable and enchanting experience for all.</p>
+                                </div>
+                            </div>
+                            <div className="col-lg-6 item" data-aos="fade-left" data-aos-duration="3000">
+                                <OwlCarousel className="owl-theme" {...gajebo}>
+                                    <div className="image-block">
+                                        <img src={g1} alt="gajebo" />
                                     </div>
-                                </div>
-                                <div className="col-lg-6 item" data-aos="fade-left" data-aos-duration="3000">
-                                    <OwlCarousel className="owl-theme" {...gajebo}>
-                                        <div className="image-block">
-                                            <img src={g1} alt="gajebo" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={g2} alt="gajebo" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={g3} alt="gajebo" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={g4} alt="gajebo" />
-                                        </div>
-                                    </OwlCarousel>
-                                </div>
+                                    <div className="image-block">
+                                        <img src={g2} alt="gajebo" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={g3} alt="gajebo" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={g4} alt="gajebo" />
+                                    </div>
+                                </OwlCarousel>
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
 
 
-        </>
+        </div>
     )
 }
 
