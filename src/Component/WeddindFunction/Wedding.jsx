@@ -2,6 +2,7 @@ import React from 'react'
 import wedding_bg from '../../assets/image/marrigre/me5.png'
 import { Link } from 'react-router-dom'
 import './Wedding.css'
+import '../Onedaypicnic/Onedaypicnic.css'
 import wedding_1 from '../../assets/image/wedding/phithi.jpeg'
 import w1 from '../../assets/image/wedding/wed1.png'
 import w2 from '../../assets/image/wedding/wed2.png'
@@ -106,7 +107,7 @@ function Wedding() {
                 <div className="container">
                     <div className="wedding-inner">
                         <div className="row wedding-item align-items-center">
-                            <div className="col-lxl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 item" data-aos="fade-right" data-aos-duration="3000">
+                            <div className="col-lxl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 item" data-aos="zoom-in" data-aos-duration="3000">
                                 <div className="title">Weddings At Kamdhenu Gau Jatan</div>
                                 <p>Kamdhenu gaujatan is located in Village Town, 30 km from surat city near Bionics,
                                     ladvi one of the most beautiful wedding venue South Gujarat has to offer! </p>
@@ -117,7 +118,7 @@ function Wedding() {
                                 <p>Our handpicked team of professionals and dedicated wedding coordinator will ensure your day
                                     is a huge success.</p>
                             </div>
-                            <div className="col-lxl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 item" data-aos="fade-left" data-aos-duration="3000">
+                            <div className="col-lxl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 item" data-aos="zoom-in" data-aos-duration="3000">
                                 <div className="image-block">
                                     <img src={wedding_1} alt="wdding_1" />
                                 </div>

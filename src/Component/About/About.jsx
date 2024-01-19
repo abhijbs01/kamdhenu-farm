@@ -52,13 +52,11 @@ function About() {
         loop: true,
         margin: 10,
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 4000,
         autoplayHoverPause: true,
         nav: false,
         dots: false,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
-        vertical: 'true',
+        autoplaySpeed: 800,
     };
 
     const Farmview = {
@@ -66,13 +64,11 @@ function About() {
         loop: true,
         margin: 10,
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 4000,
         autoplayHoverPause: true,
         nav: false,
         dots: false,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
-        vertical: 'true',
+        autoplaySpeed: 800,
     };
 
     const Entryview = {
@@ -80,13 +76,11 @@ function About() {
         loop: true,
         margin: 10,
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 4000,
         autoplayHoverPause: true,
         nav: false,
         dots: false,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
-        vertical: 'true',
+        autoplaySpeed: 800,
     };
 
     const Villagelocation = {
@@ -98,9 +92,6 @@ function About() {
         autoplayHoverPause: true,
         nav: false,
         dots: false,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
-        vertical: 'true',
     };
     const office = {
         items: 1,
@@ -111,9 +102,7 @@ function About() {
         autoplayHoverPause: true,
         nav: false,
         dots: false,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
-        vertical: 'true',
+        autoplaySpeed: 800,
     };
 
     return (
@@ -135,7 +124,7 @@ function About() {
                 <div className="container">
                     <div className="about-welcome-inner">
                         <div className="aboutus-welcome-item row">
-                            <div className="col-lg-5 item" data-aos="fade-right" data-aos-duration="3000">
+                            <div className="col-lg-5 item" >
                                 <OwlCarousel className="owl-theme" {...temple}>
                                     <div className="img-block">
                                         <img src={t1} alt="temple" />
@@ -151,7 +140,7 @@ function About() {
                                     </div>
                                 </OwlCarousel>
                             </div>
-                            <div className="col-lg-7 item" data-aos="fade-left" data-aos-duration="3000">
+                            <div className="col-lg-7 item" >
                                 <div className="title">Welcome to Kamdhenu Gaujatan</div>
                                 <p>
                                     Kamdhenu Gaujatan is a group of premium and sophisticated villas that promises to deliver
@@ -309,172 +298,172 @@ function About() {
 
             <div className="about-block">
                 <div className="general-outrer">
-                        <div className="general-inner">
-                            <div className="row general-item align-items-center">
-                                <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
-                                    <OwlCarousel className="owl-theme" {...Farmview}>
-                                        <div className="image-block">
-                                            <img src={farm1} alt="Farmview" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={farm2} alt="Farmview" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={farm3} alt="Farmview" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={farm4} alt="Farmview" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={farm5} alt="Farmview" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={farm6} alt="Farmview" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={farm7} alt="Farmview" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={farm8} alt="Farmview" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={farm9} alt="Farmview" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={farm10} alt="Farmview" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={farm11} alt="Farmview" />
-                                        </div>
-                                    </OwlCarousel>
-
-                                </div>
-                                <div className="col-lg-6 item" data-aos="fade-left" data-aos-duration="3000">
-                                    <div className="general-content">
-                                        <p>Kamdhenu Gautjan Farm is a versatile venue that seamlessly blends the tranquility of nature with state-of-the-art facilities for various events. This picturesque setting caters to a myriad of functions, from serene corporate retreats to lively social gatherings. The farm offers an ideal backdrop for team-building exercises, workshops, and conferences, providing a serene environment conducive to productivity and innovation.</p>
-                                        <p>With sprawling green landscapes and well-equipped event spaces, Kamdhenu Gautjan Farm accommodates diverse corporate needs. The venue's versatility extends to hosting vibrant social events, such as weddings, birthdays, and cultural celebrations, ensuring memorable experiences for attendees. The farm's commitment to excellence is reflected in its meticulous event planning, catering, and audiovisual support, ensuring the seamless execution of every occasion.</p>
-                                        <p>Whether it's a corporate seminar or a joyous celebration, Kamdhenu Gautjan Farm harmonizes nature and functionality, creating an enchanting atmosphere that enhances the success of any event.</p>
+                    <div className="general-inner">
+                        <div className="row general-item align-items-center">
+                            <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
+                                <OwlCarousel className="owl-theme" {...Farmview}>
+                                    <div className="image-block">
+                                        <img src={farm1} alt="Farmview" />
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-
-                <div className="general-outrer">
-                        <div className="general-inner">
-                            <div className="row general-item align-items-center">
-                                <div className="col-lg-6 item">
-                                    <div className="general-content">
-                                        <p>The entrance to Kamdhenu Gautjan Farm beckons with an enchanting blend of elegance and rustic charm. As you approach the gate, intricate wrought ironwork welcomes you into a world where nature and sophistication coalesce seamlessly. The grand entrance stands as a prelude to the idyllic beauty that awaits within.</p>
-                                        <p>Two majestic pillars adorned with ornate motifs stand guard on either side of the gate, forming a regal arch that introduces visitors to the sprawling expanse beyond. The gate itself, a masterpiece of craftsmanship, features intricate carvings depicting pastoral scenes, celebrating the essence of rural life. As it swings open, it reveals a landscape adorned with lush greenery and manicured lawns, setting the stage for the enchanting experience that Kamdhenu Gautjan Farm promises.</p>
-                                        <p>The entry gate of Kamdhenu Gautjan Farm is more than a mere threshold; it is a portal to an oasis where natural splendor meets refined elegance, inviting all who pass through to embrace the beauty of the surroundings.</p>
+                                    <div className="image-block">
+                                        <img src={farm2} alt="Farmview" />
                                     </div>
-                                </div>
-                                <div className="col-lg-6 item">
-                                    <OwlCarousel className="owl-theme" {...Entryview}>
-                                        <div className="image-block">
-                                            <img src={e1} alt="entry" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={e2} alt="entry" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={e3} alt="entry" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={e4} alt="entry" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={e5} alt="entry" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={e6} alt="entry" />
-                                        </div>
-                                    </OwlCarousel>
-
-                                </div>
-                            </div>
-                        </div>
-                </div>
-
-                <div className="general-outrer">
-                        <div className="general-inner">
-                            <div className="row general-item align-items-center">
-                                <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
-                                    <OwlCarousel className="owl-theme" {...Villagelocation}>
-                                        <div className="image-block">
-                                            <img src={v1} alt="entry" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={v2} alt="entry" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={v3} alt="entry" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={v4} alt="entry" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={v5} alt="entry" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={v6} alt="entry" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={v7} alt="entry" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={v8} alt="entry" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={v9} alt="entry" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={v10} alt="entry" />
-                                        </div>
-                                        <div className="image-block">
-                                            <img src={v11} alt="entry" />
-                                        </div>
-                                    </OwlCarousel>
-
-                                </div>
-                                <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
-                                    <div className="general-content">
-                                        <p>Nestled in the heart of rustic charm, Kamdhenu Gautjan Farm captures the essence of a village atmosphere, making it an idyllic location for weddings, pre-wedding shoots, and various events. The village-inspired setting exudes a quaint and timeless appeal, transporting guests to a bygone era where simplicity meets elegance.</p>
-                                        <p>Surrounded by sprawling fields and framed by age-old trees, the farm encapsulates the picturesque beauty of a village. Stone pathways wind through the property, leading to quaint corners perfect for intimate ceremonies or capturing cherished moments on camera. Authentic village architecture, with thatched roofs and rustic wooden structures, adds to the charm and creates a warm, welcoming ambiance.</p>
-                                        <p>The natural landscape, including vibrant flora and the gentle melody of nearby streams, completes the immersive village experience. Kamdhenu Gautjan Farm not only provides a stunning backdrop for celebrations but also offers a retreat into the serenity of rural life, ensuring that every event becomes a memorable journey into the heart of a village-inspired haven.</p>
+                                    <div className="image-block">
+                                        <img src={farm3} alt="Farmview" />
                                     </div>
-                                </div>
+                                    <div className="image-block">
+                                        <img src={farm4} alt="Farmview" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={farm5} alt="Farmview" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={farm6} alt="Farmview" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={farm7} alt="Farmview" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={farm8} alt="Farmview" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={farm9} alt="Farmview" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={farm10} alt="Farmview" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={farm11} alt="Farmview" />
+                                    </div>
+                                </OwlCarousel>
 
                             </div>
-                        </div>
-                </div>
-
-                <div className="general-outrer">
-                        <div className="general-inner">
-                            <div className="row general-item align-items-center">
-                                <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
-                                    <div className="general-content">
-                                        <p>Kamdhenu Gautjan's corporate office is strategically situated in a modern urban setting, combining sophistication with contemporary design, making it an ideal location for professional photoshoots. The office facade boasts sleek architecture with large glass panels, allowing for abundant natural light to illuminate the space.</p>
-                                        <p>The entrance is marked by a stylish corporate logo, creating a visually striking first impression. The surrounding urban landscape provides a dynamic backdrop, reflecting the energy of the business environment. Inside, well-designed workspaces feature a harmonious blend of functionality and aesthetics, offering versatile settings for capturing professional moments.</p>
-                                        <p>The reception area is tastefully decorated, providing a welcoming atmosphere for clients and visitors. Executive offices showcase a balance of modern furnishings and corporate identity, offering a polished setting for individual or group photography sessions. Kamdhenu Gautjan's office location is not just a hub for business; it is a visual testament to the organization's commitment to excellence and innovation, making it an ideal spot for showcasing the corporate identity through photography.</p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 item" data-aos="fade-left" data-aos-duration="3000">
-                                    <OwlCarousel className="owl-theme" {...office}>
-                                        <div className="image-block">
-                                            <img src={o1} alt="entry" />
-                                        </div>
-
-                                        <div className="image-block">
-                                            <img src={o2} alt="entry" />
-                                        </div>
-                                    </OwlCarousel>
-
+                            <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
+                                <div className="general-content">
+                                    <p>Kamdhenu Gautjan Farm is a versatile venue that seamlessly blends the tranquility of nature with state-of-the-art facilities for various events. This picturesque setting caters to a myriad of functions, from serene corporate retreats to lively social gatherings. The farm offers an ideal backdrop for team-building exercises, workshops, and conferences, providing a serene environment conducive to productivity and innovation.</p>
+                                    <p>With sprawling green landscapes and well-equipped event spaces, Kamdhenu Gautjan Farm accommodates diverse corporate needs. The venue's versatility extends to hosting vibrant social events, such as weddings, birthdays, and cultural celebrations, ensuring memorable experiences for attendees. The farm's commitment to excellence is reflected in its meticulous event planning, catering, and audiovisual support, ensuring the seamless execution of every occasion.</p>
+                                    <p>Whether it's a corporate seminar or a joyous celebration, Kamdhenu Gautjan Farm harmonizes nature and functionality, creating an enchanting atmosphere that enhances the success of any event.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div className="general-outrer">
+                    <div className="general-inner">
+                        <div className="row general-item align-items-center">
+                            <div className="col-lg-6 item">
+                                <div className="general-content">
+                                    <p>The entrance to Kamdhenu Gautjan Farm beckons with an enchanting blend of elegance and rustic charm. As you approach the gate, intricate wrought ironwork welcomes you into a world where nature and sophistication coalesce seamlessly. The grand entrance stands as a prelude to the idyllic beauty that awaits within.</p>
+                                    <p>Two majestic pillars adorned with ornate motifs stand guard on either side of the gate, forming a regal arch that introduces visitors to the sprawling expanse beyond. The gate itself, a masterpiece of craftsmanship, features intricate carvings depicting pastoral scenes, celebrating the essence of rural life. As it swings open, it reveals a landscape adorned with lush greenery and manicured lawns, setting the stage for the enchanting experience that Kamdhenu Gautjan Farm promises.</p>
+                                    <p>The entry gate of Kamdhenu Gautjan Farm is more than a mere threshold; it is a portal to an oasis where natural splendor meets refined elegance, inviting all who pass through to embrace the beauty of the surroundings.</p>
+                                </div>
+                            </div>
+                            <div className="col-lg-6 item">
+                                <OwlCarousel className="owl-theme" {...Entryview}>
+                                    <div className="image-block">
+                                        <img src={e1} alt="entry" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={e2} alt="entry" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={e3} alt="entry" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={e4} alt="entry" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={e5} alt="entry" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={e6} alt="entry" />
+                                    </div>
+                                </OwlCarousel>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="general-outrer">
+                    <div className="general-inner">
+                        <div className="row general-item align-items-center">
+                            <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
+                                <OwlCarousel className="owl-theme" {...Villagelocation}>
+                                    <div className="image-block">
+                                        <img src={v1} alt="entry" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={v2} alt="entry" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={v3} alt="entry" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={v4} alt="entry" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={v5} alt="entry" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={v6} alt="entry" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={v7} alt="entry" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={v8} alt="entry" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={v9} alt="entry" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={v10} alt="entry" />
+                                    </div>
+                                    <div className="image-block">
+                                        <img src={v11} alt="entry" />
+                                    </div>
+                                </OwlCarousel>
+
+                            </div>
+                            <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
+                                <div className="general-content">
+                                    <p>Nestled in the heart of rustic charm, Kamdhenu Gautjan Farm captures the essence of a village atmosphere, making it an idyllic location for weddings, pre-wedding shoots, and various events. The village-inspired setting exudes a quaint and timeless appeal, transporting guests to a bygone era where simplicity meets elegance.</p>
+                                    <p>Surrounded by sprawling fields and framed by age-old trees, the farm encapsulates the picturesque beauty of a village. Stone pathways wind through the property, leading to quaint corners perfect for intimate ceremonies or capturing cherished moments on camera. Authentic village architecture, with thatched roofs and rustic wooden structures, adds to the charm and creates a warm, welcoming ambiance.</p>
+                                    <p>The natural landscape, including vibrant flora and the gentle melody of nearby streams, completes the immersive village experience. Kamdhenu Gautjan Farm not only provides a stunning backdrop for celebrations but also offers a retreat into the serenity of rural life, ensuring that every event becomes a memorable journey into the heart of a village-inspired haven.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div className="general-outrer">
+                    <div className="general-inner">
+                        <div className="row general-item align-items-center">
+                            <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
+                                <div className="general-content">
+                                    <p>Kamdhenu Gautjan's corporate office is strategically situated in a modern urban setting, combining sophistication with contemporary design, making it an ideal location for professional photoshoots. The office facade boasts sleek architecture with large glass panels, allowing for abundant natural light to illuminate the space.</p>
+                                    <p>The entrance is marked by a stylish corporate logo, creating a visually striking first impression. The surrounding urban landscape provides a dynamic backdrop, reflecting the energy of the business environment. Inside, well-designed workspaces feature a harmonious blend of functionality and aesthetics, offering versatile settings for capturing professional moments.</p>
+                                    <p>The reception area is tastefully decorated, providing a welcoming atmosphere for clients and visitors. Executive offices showcase a balance of modern furnishings and corporate identity, offering a polished setting for individual or group photography sessions. Kamdhenu Gautjan's office location is not just a hub for business; it is a visual testament to the organization's commitment to excellence and innovation, making it an ideal spot for showcasing the corporate identity through photography.</p>
+                                </div>
+                            </div>
+                            <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
+                                <OwlCarousel className="owl-theme" {...office}>
+                                    <div className="image-block">
+                                        <img src={o1} alt="entry" />
+                                    </div>
+
+                                    <div className="image-block">
+                                        <img src={o2} alt="entry" />
+                                    </div>
+                                </OwlCarousel>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 

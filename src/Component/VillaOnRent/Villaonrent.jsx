@@ -52,11 +52,9 @@ function Villaonrent() {
         items: 1,
         loop: true,
         margin: 10,
+        autoplaySpeed: 800,
         autoplay: true,
-        animateOut: 'fadeOut',
-        autoplayTimeout: 3000,
-        vertical: true,
-        animateIn: 'fadeIn',
+        autoplayTimeout: 4000,
         nav: false,
         dots: false,
         autoHeight: true,
@@ -76,11 +74,9 @@ function Villaonrent() {
         items: 1,
         loop: true,
         margin: 10,
-        autoplayTimeout: 3000,
-        vertical: 'true',
+        autoplaySpeed: 800,
+        autoplayTimeout: 4000,
         autoplay: true,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
         nav: false,
         dots: false,
         autoHeight: true,
@@ -100,11 +96,9 @@ function Villaonrent() {
         items: 1,
         loop: true,
         margin: 10,
+        autoplaySpeed: 800,
         autoplay: true,
-        vertical: 'true',
-        autoplayTimeout: 3000,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
+        autoplayTimeout: 4000,
         nav: false,
         dots: false,
         autoHeight: true,
@@ -124,11 +118,9 @@ function Villaonrent() {
         items: 1,
         loop: true,
         margin: 10,
+        autoplaySpeed: 800,
         autoplay: true,
-        vertical: 'true',
-        autoplayTimeout: 3000,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
+        autoplayTimeout: 4000,
         nav: false,
         dots: false,
         autoHeight: true,
@@ -172,7 +164,7 @@ function Villaonrent() {
                 <div className="container">
                     <div className="platinium-inner">
                         <div className="platanium-1 row align-items-center">
-                            <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
+                            <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
                                 <div className="title">Destination Luxury Respite.</div>
                                 <p>A perfect blend of contemporary design and functionality, our platinum villas come with
                                     breathtaking beauty and excellence. Themed as per the Bali escapades, a calming view can be
@@ -187,7 +179,7 @@ function Villaonrent() {
                                     with your family! We have curated the perfect slice of serenity, beauty, peace, and
                                     entertainment to make your stay a memorable one! </p>
                             </div>
-                            <div className="col-lg-6 item" data-aos="fade-left" data-aos-duration="3000">
+                            <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
                                 <div className="title">Explore the Villa</div>
                                 <div className="service-1 mb-2">
                                     <div className="sub-title">Bedrooms</div>
@@ -238,7 +230,7 @@ function Villaonrent() {
                 <div className="general-outrer">
                     <div className="general-inner">
                         <div className="row general-item align-items-center">
-                            <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
+                            <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
                                 <OwlCarousel className="owl-theme" {...Geberalroom}>
                                     <div className="image-block">
                                         <img src={gen1} alt="generalroom" />
@@ -267,7 +259,7 @@ function Villaonrent() {
                                 </OwlCarousel>
 
                             </div>
-                            <div className="col-lg-6 item" data-aos="fade-left" data-aos-duration="3000">
+                            <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
                                 <div className="general-content">
                                     <p>Indulge in the luxurious yet homely atmosphere of Kamdhenu Gaujatan Farm's General Rooms,
                                         offering a total of 30 elegantly designed spaces. Each room is a haven of comfort, featuring
@@ -296,7 +288,7 @@ function Villaonrent() {
                 <div className="general-outrer">
                     <div className="general-inner">
                         <div className="row general-item align-items-center">
-                            <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
+                            <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
                                 <div className="general-content">
 
                                     <p>Indulge in the epitome of comfort with opulent furnishings, and revel in the spaciousness that defines our VIP Rooms. Each room is a sanctuary of sophistication, boasting modern amenities to meet the highest standards of luxury travel. From premium bedding to personalized concierge service, we prioritize every detail to exceed your expectations.</p>
@@ -307,7 +299,7 @@ function Villaonrent() {
                                     <p>At Kamdhenu Gaujatan Farm, we redefine luxury by seamlessly blending modern elegance with traditional charm, creating an unforgettable haven for our discerning guests. Whether you're here for business or leisure, our VIP Rooms promise a stay that transcends expectations, delivering an unparalleled level of comfort and sophistication.</p>
                                 </div>
                             </div>
-                            <div className="col-lg-6 item" data-aos="fade-left" data-aos-duration="3000">
+                            <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
                                 <OwlCarousel className="owl-theme" {...Viproom}>
                                     <div className="image-block">
                                         <img src={vip1} alt="viproom" />
@@ -355,7 +347,7 @@ function Villaonrent() {
                 <div className="general-outrer">
                     <div className="general-inner">
                         <div className="row general-item align-items-center">
-                            <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
+                            <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
                                 <OwlCarousel className="owl-theme" {...yagnakun}>
                                     <div className="image-block">
                                         <img src={yagna1} alt="yagnakund" />
@@ -388,7 +380,7 @@ function Villaonrent() {
                                 </OwlCarousel>
 
                             </div>
-                            <div className="col-lg-6 item" data-aos="fade-left" data-aos-duration="3000">
+                            <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
                                 <div className="general-content">
                                     <p>Embark on a divine journey at Kamdhenu Gaujatan Farm, where we offer the perfect setting for your religious ceremonies and spiritual gatherings. Our farm presents a unique opportunity to rent a dedicated space for Yagan Vidhi and other Dharmik Vidhi, providing a serene and sacred atmosphere for your religious functions.</p>
                                     <p>Nestled amidst nature, our farm is designed to be a tranquil haven, allowing devotees to immerse themselves in the spirituality of the occasion. The farm house for rent is specially curated to cater to religious events, with spacious interiors and outdoor areas to accommodate the sacred rituals and gatherings.</p>
@@ -405,14 +397,14 @@ function Villaonrent() {
                 <div className="general-outrer">
                     <div className="general-inner">
                         <div className="row general-item align-items-center">
-                            <div className="col-lg-6 item" data-aos="fade-right" data-aos-duration="3000">
+                            <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
                                 <div className="general-content">
 
-                                    <p>The "gajebo" at Kamdhenu Gautjan Farm is a charming retreat within the rustic beauty of the venue. Nestled amidst the sprawling greenery, the gajebo serves as an intimate haven for gatherings and moments of reflection. Adorned with traditional decor and rustic charm, it provides a picturesque backdrop for events like weddings, family functions, or serene get-togethers.</p>
+                                    <p>The "Gajebo" at Kamdhenu Gautjan Farm is a charming retreat within the rustic beauty of the venue. Nestled amidst the sprawling greenery, the gajebo serves as an intimate haven for gatherings and moments of reflection. Adorned with traditional decor and rustic charm, it provides a picturesque backdrop for events like weddings, family functions, or serene get-togethers.</p>
                                     <p>Surrounded by vibrant flora, the gajebo offers a touch of nature's elegance, creating a serene atmosphere for guests to immerse themselves in. Whether it's a small ceremony or a cozy celebration, the gajebo at Kamdhenu Gautjan Farm encapsulates the essence of tranquility and rustic allure. This carefully crafted space within the farm complements the overall ambiance, ensuring that every event held beneath its shelter becomes a memorable and enchanting experience for all.</p>
                                 </div>
                             </div>
-                            <div className="col-lg-6 item" data-aos="fade-left" data-aos-duration="3000">
+                            <div className="col-lg-6 item" data-aos="zoon-in" data-aos-duration="3000">
                                 <OwlCarousel className="owl-theme" {...gajebo}>
                                     <div className="image-block">
                                         <img src={g1} alt="gajebo" />

@@ -22,6 +22,7 @@ function Events() {
         margin: 10,
         nav: false,
         dots: false,
+        autoplaySpeed: 800,
         responsive: {
             0: {
                 items: 1
