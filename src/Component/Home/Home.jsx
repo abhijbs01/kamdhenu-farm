@@ -45,7 +45,7 @@ function Home() {
     <div>
       {/* SLIDER START */}
       <div className="slider-outer">
-        <video width={'100%'} height="600" controls muted autoPlay playsInline>
+        <video width={'100%'} height="600" controls={false} muted autoPlay playsInline>
           <source src={video} type="video/mp4" />
         </video>
       </div>

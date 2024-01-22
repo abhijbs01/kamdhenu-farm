@@ -15,95 +15,95 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 // import parking from '../../assets/image/parking/park2.JPG';
 // import gajebo from '../../assets/image/gajebo/g3.JPG'
 import farm1 from '../../assets/image/farmview/fv1.JPG'
-import farm2 from '../../assets/image/farmview/fv1.JPG'
-import farm3 from '../../assets/image/farmview/fv2.JPG'
-import farm4 from '../../assets/image/farmview/fv3.JPG'
-import farm5 from '../../assets/image/farmview/fv4.JPG'
-import farm6 from '../../assets/image/farmview/fv5.JPG'
-import farm7 from '../../assets/image/farmview/fv6.JPG'
-import farm8 from '../../assets/image/farmview/fv7.JPG'
-import farm9 from '../../assets/image/farmview/fv9.JPG'
-import farm10 from '../../assets/image/farmview/fv10.JPG'
-import farm11 from '../../assets/image/farmview/fv11.JPG'
+// import farm2 from '../../assets/image/farmview/fv1.JPG'
+// import farm3 from '../../assets/image/farmview/fv2.JPG'
+// import farm4 from '../../assets/image/farmview/fv3.JPG'
+// import farm5 from '../../assets/image/farmview/fv4.JPG'
+// import farm6 from '../../assets/image/farmview/fv5.JPG'
+// import farm7 from '../../assets/image/farmview/fv6.JPG'
+// import farm8 from '../../assets/image/farmview/fv7.JPG'
+// import farm9 from '../../assets/image/farmview/fv9.JPG'
+// import farm10 from '../../assets/image/farmview/fv10.JPG'
+// import farm11 from '../../assets/image/farmview/fv11.JPG'
 import e1 from '../../assets/image/entryview/entry1.png'
-import e2 from '../../assets/image/get/get7.jpeg'
-import e3 from '../../assets/image/get/get1.png'
-import e4 from '../../assets/image/get/get4.png'
-import e5 from '../../assets/image/get/get6.png'
-import e6 from '../../assets/image/nightlight.jpeg'
+// import e2 from '../../assets/image/get/get7.jpeg'
+// import e3 from '../../assets/image/get/get1.png'
+// import e4 from '../../assets/image/get/get4.png'
+// import e5 from '../../assets/image/get/get6.png'
+// import e6 from '../../assets/image/nightlight.jpeg'
 import v1 from '../../assets/image/villagelocation/v1.JPG'
-import v2 from '../../assets/image/villagelocation/v2.JPG'
-import v3 from '../../assets/image/villagelocation/v3.JPG'
-import v4 from '../../assets/image/villagelocation/v4.JPG'
-import v5 from '../../assets/image/villagelocation/v5.JPG'
-import v6 from '../../assets/image/villagelocation/v6.JPG'
-import v7 from '../../assets/image/villagelocation/v7.JPG'
-import v8 from '../../assets/image/villagelocation/v8.JPG'
-import v9 from '../../assets/image/villagelocation/v9.JPG'
-import v10 from '../../assets/image/villagelocation/v10.JPG'
-import v11 from '../../assets/image/villagelocation/v11.JPG'
+// import v2 from '../../assets/image/villagelocation/v2.JPG'
+// import v3 from '../../assets/image/villagelocation/v3.JPG'
+// import v4 from '../../assets/image/villagelocation/v4.JPG'
+// import v5 from '../../assets/image/villagelocation/v5.JPG'
+// import v6 from '../../assets/image/villagelocation/v6.JPG'
+// import v7 from '../../assets/image/villagelocation/v7.JPG'
+// import v8 from '../../assets/image/villagelocation/v8.JPG'
+// import v9 from '../../assets/image/villagelocation/v9.JPG'
+// import v10 from '../../assets/image/villagelocation/v10.JPG'
+// import v11 from '../../assets/image/villagelocation/v11.JPG'
 import o1 from '../../assets/image/office/off1.JPG'
-import o2 from '../../assets/image/office/off5.JPG'
+// import o2 from '../../assets/image/office/off5.JPG'
 
 
 function About() {
-    const temple = {
-        items: 1,
-        loop: true,
-        margin: 10,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        autoplayHoverPause: true,
-        nav: false,
-        dots: false,
-        autoplaySpeed: 800,
-    };
+    // const temple = {
+    //     items: 1,
+    //     loop: true,
+    //     margin: 10,
+    //     autoplay: true,
+    //     autoplayTimeout: 4000,
+    //     autoplayHoverPause: true,
+    //     nav: false,
+    //     dots: false,
+    //     autoplaySpeed: 800,
+    // };
 
-    const Farmview = {
-        items: 1,
-        loop: true,
-        margin: 10,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        autoplayHoverPause: true,
-        nav: false,
-        dots: false,
-        autoplaySpeed: 800,
-    };
+    // const Farmview = {
+    //     items: 1,
+    //     loop: true,
+    //     margin: 10,
+    //     autoplay: true,
+    //     autoplayTimeout: 4000,
+    //     autoplayHoverPause: true,
+    //     nav: false,
+    //     dots: false,
+    //     autoplaySpeed: 800,
+    // };
 
-    const Entryview = {
-        items: 1,
-        loop: true,
-        margin: 10,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        autoplayHoverPause: true,
-        nav: false,
-        dots: false,
-        autoplaySpeed: 800,
-    };
+    // const Entryview = {
+    //     items: 1,
+    //     loop: true,
+    //     margin: 10,
+    //     autoplay: true,
+    //     autoplayTimeout: 4000,
+    //     autoplayHoverPause: true,
+    //     nav: false,
+    //     dots: false,
+    //     autoplaySpeed: 800,
+    // };
 
-    const Villagelocation = {
-        items: 1,
-        loop: true,
-        margin: 10,
-        autoplay: true,
-        autoplayTimeout: 3000,
-        autoplayHoverPause: true,
-        nav: false,
-        dots: false,
-    };
-    const office = {
-        items: 1,
-        loop: true,
-        margin: 10,
-        autoplay: true,
-        autoplayTimeout: 3000,
-        autoplayHoverPause: true,
-        nav: false,
-        dots: false,
-        autoplaySpeed: 800,
-    };
+    // const Villagelocation = {
+    //     items: 1,
+    //     loop: true,
+    //     margin: 10,
+    //     autoplay: true,
+    //     autoplayTimeout: 3000,
+    //     autoplayHoverPause: true,
+    //     nav: false,
+    //     dots: false,
+    // };
+    // const office = {
+    //     items: 1,
+    //     loop: true,
+    //     margin: 10,
+    //     autoplay: true,
+    //     autoplayTimeout: 3000,
+    //     autoplayHoverPause: true,
+    //     nav: false,
+    //     dots: false,
+    //     autoplaySpeed: 800,
+    // };
 
     return (
         <div>
@@ -125,11 +125,10 @@ function About() {
                     <div className="about-welcome-inner">
                         <div className="aboutus-welcome-item row">
                             <div className="col-lg-5 item" >
-                                <OwlCarousel className="owl-theme" {...temple}>
                                     <div className="img-block">
                                         <img src={t1} alt="temple" />
                                     </div>
-                                    <div className="img-block">
+                                    {/* <div className="img-block">
                                         <img src={t2} alt="templ" />
                                     </div>
                                     <div className="img-block">
@@ -137,8 +136,7 @@ function About() {
                                     </div>
                                     <div className="img-block">
                                         <img src={t4} alt="temple" />
-                                    </div>
-                                </OwlCarousel>
+                                    </div> */}
                             </div>
                             <div className="col-lg-7 item" >
                                 <div className="title">Welcome to Kamdhenu Gaujatan</div>
@@ -301,11 +299,10 @@ function About() {
                     <div className="general-inner">
                         <div className="row general-item align-items-center">
                             <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
-                                <OwlCarousel className="owl-theme" {...Farmview}>
                                     <div className="image-block">
                                         <img src={farm1} alt="Farmview" />
                                     </div>
-                                    <div className="image-block">
+                                    {/* <div className="image-block">
                                         <img src={farm2} alt="Farmview" />
                                     </div>
                                     <div className="image-block">
@@ -334,8 +331,7 @@ function About() {
                                     </div>
                                     <div className="image-block">
                                         <img src={farm11} alt="Farmview" />
-                                    </div>
-                                </OwlCarousel>
+                                    </div> */}
 
                             </div>
                             <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
@@ -360,11 +356,10 @@ function About() {
                                 </div>
                             </div>
                             <div className="col-lg-6 item">
-                                <OwlCarousel className="owl-theme" {...Entryview}>
                                     <div className="image-block">
                                         <img src={e1} alt="entry" />
                                     </div>
-                                    <div className="image-block">
+                                    {/* <div className="image-block">
                                         <img src={e2} alt="entry" />
                                     </div>
                                     <div className="image-block">
@@ -378,8 +373,7 @@ function About() {
                                     </div>
                                     <div className="image-block">
                                         <img src={e6} alt="entry" />
-                                    </div>
-                                </OwlCarousel>
+                                    </div> */}
 
                             </div>
                         </div>
@@ -390,11 +384,10 @@ function About() {
                     <div className="general-inner">
                         <div className="row general-item align-items-center">
                             <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
-                                <OwlCarousel className="owl-theme" {...Villagelocation}>
                                     <div className="image-block">
                                         <img src={v1} alt="entry" />
                                     </div>
-                                    <div className="image-block">
+                                    {/* <div className="image-block">
                                         <img src={v2} alt="entry" />
                                     </div>
                                     <div className="image-block">
@@ -423,8 +416,7 @@ function About() {
                                     </div>
                                     <div className="image-block">
                                         <img src={v11} alt="entry" />
-                                    </div>
-                                </OwlCarousel>
+                                    </div> */}
 
                             </div>
                             <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
@@ -450,15 +442,13 @@ function About() {
                                 </div>
                             </div>
                             <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
-                                <OwlCarousel className="owl-theme" {...office}>
                                     <div className="image-block">
                                         <img src={o1} alt="entry" />
                                     </div>
 
-                                    <div className="image-block">
+                                    {/* <div className="image-block">
                                         <img src={o2} alt="entry" />
-                                    </div>
-                                </OwlCarousel>
+                                    </div> */}
 
                             </div>
                         </div>

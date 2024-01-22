@@ -732,3 +732,7 @@
         margin-bottom: 10px;
     }
 }
+.general-outrer .image-block img {
+    width: 100%;
+    border-radius: 20px;
+}

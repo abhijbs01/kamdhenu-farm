@@ -15,127 +15,127 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import gen1 from '../../assets/image/generalroom/g1.JPG'
-import gen2 from '../../assets/image/generalroom/g2.JPG'
-import gen3 from '../../assets/image/generalroom/g3.JPG'
-import gen4 from '../../assets/image/generalroom/g4.JPG'
-import gen5 from '../../assets/image/generalroom/g5.JPG'
-import gen6 from '../../assets/image/generalroom/g6.png'
-import gen8 from '../../assets/image/generalroom/g8.JPG'
-import gen9 from '../../assets/image/generalroom/g9.JPG'
+// import gen2 from '../../assets/image/generalroom/g2.JPG'
+// import gen3 from '../../assets/image/generalroom/g3.JPG'
+// import gen4 from '../../assets/image/generalroom/g4.JPG'
+// import gen5 from '../../assets/image/generalroom/g5.JPG'
+// import gen6 from '../../assets/image/generalroom/g6.png'
+// import gen8 from '../../assets/image/generalroom/g8.JPG'
+// import gen9 from '../../assets/image/generalroom/g9.JPG'
 import vip1 from '../../assets/image/viproom/vip1.JPG'
-import vip2 from '../../assets/image/viproom/vip2.JPG'
-import vip3 from '../../assets/image/viproom/vip3.JPG'
-import vip4 from '../../assets/image/viproom/vip4.JPG'
-import vip5 from '../../assets/image/viproom/vip5.JPG'
-import vip6 from '../../assets/image/viproom/vip6.JPG'
-import vip7 from '../../assets/image/viproom/vip7.JPG'
-import vip8 from '../../assets/image/viproom/vip8.JPG'
-import vip9 from '../../assets/image/viproom/vip9.JPG'
-import vip10 from '../../assets/image/viproom/vip10.JPG'
-import vip11 from '../../assets/image/viproom/vip11.JPG'
+// import vip2 from '../../assets/image/viproom/vip2.JPG'
+// import vip3 from '../../assets/image/viproom/vip3.JPG'
+// import vip4 from '../../assets/image/viproom/vip4.JPG'
+// import vip5 from '../../assets/image/viproom/vip5.JPG'
+// import vip6 from '../../assets/image/viproom/vip6.JPG'
+// import vip7 from '../../assets/image/viproom/vip7.JPG'
+// import vip8 from '../../assets/image/viproom/vip8.JPG'
+// import vip9 from '../../assets/image/viproom/vip9.JPG'
+// import vip10 from '../../assets/image/viproom/vip10.JPG'
+// import vip11 from '../../assets/image/viproom/vip11.JPG'
 import yagna1 from '../../assets/image/yagnakund/y1.JPG'
-import yagna2 from '../../assets/image/yagnakund/y2.JPG'
-import yagna3 from '../../assets/image/yagnakund/y3.JPG'
-import yagna4 from '../../assets/image/yagnakund/y4.JPG'
-import yagna5 from '../../assets/image/yagnakund/y5.JPG'
-import yagna6 from '../../assets/image/yagnakund/y6.JPG'
-import yagna7 from '../../assets/image/yagnakund/y7.JPG'
-import yagna8 from '../../assets/image/yagnakund/y8.JPG'
-import yagna9 from '../../assets/image/yagnakund/y9.JPG'
+// import yagna2 from '../../assets/image/yagnakund/y2.JPG'
+// import yagna3 from '../../assets/image/yagnakund/y3.JPG'
+// import yagna4 from '../../assets/image/yagnakund/y4.JPG'
+// import yagna5 from '../../assets/image/yagnakund/y5.JPG'
+// import yagna6 from '../../assets/image/yagnakund/y6.JPG'
+// import yagna7 from '../../assets/image/yagnakund/y7.JPG'
+// import yagna8 from '../../assets/image/yagnakund/y8.JPG'
+// import yagna9 from '../../assets/image/yagnakund/y9.JPG'
 import g1 from '../../assets/image/gajebo/g1.png'
-import g2 from '../../assets/image/gajebo/g2.png'
-import g3 from '../../assets/image/gajebo/g3.png'
-import g4 from '../../assets/image/gajebo/g6.png'
+// import g2 from '../../assets/image/gajebo/g2.png'
+// import g3 from '../../assets/image/gajebo/g3.png'
+// import g4 from '../../assets/image/gajebo/g6.png'
 
 function Villaonrent() {
-    const Geberalroom = {
-        items: 1,
-        loop: true,
-        margin: 10,
-        autoplaySpeed: 800,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        nav: false,
-        dots: false,
-        autoHeight: true,
-        responsive: {
-            0: {
-                items: 1,
-            },
-            600: {
-                items: 1,
-            },
-            1000: {
-                items: 1,
-            },
-        },
-    };
-    const Viproom = {
-        items: 1,
-        loop: true,
-        margin: 10,
-        autoplaySpeed: 800,
-        autoplayTimeout: 4000,
-        autoplay: true,
-        nav: false,
-        dots: false,
-        autoHeight: true,
-        responsive: {
-            0: {
-                items: 1,
-            },
-            600: {
-                items: 1,
-            },
-            1000: {
-                items: 1,
-            },
-        },
-    };
-    const yagnakun = {
-        items: 1,
-        loop: true,
-        margin: 10,
-        autoplaySpeed: 800,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        nav: false,
-        dots: false,
-        autoHeight: true,
-        responsive: {
-            0: {
-                items: 1,
-            },
-            600: {
-                items: 1,
-            },
-            1000: {
-                items: 1,
-            },
-        },
-    };
-    const gajebo = {
-        items: 1,
-        loop: true,
-        margin: 10,
-        autoplaySpeed: 800,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        nav: false,
-        dots: false,
-        autoHeight: true,
-        responsive: {
-            0: {
-                items: 1,
-            },
-            600: {
-                items: 1,
-            },
-            1000: {
-                items: 1,
-            },
-        },
-    };
+    // const Geberalroom = {
+    //     items: 1,
+    //     loop: true,
+    //     margin: 10,
+    //     autoplaySpeed: 800,
+    //     autoplay: true,
+    //     autoplayTimeout: 4000,
+    //     nav: false,
+    //     dots: false,
+    //     autoHeight: true,
+    //     responsive: {
+    //         0: {
+    //             items: 1,
+    //         },
+    //         600: {
+    //             items: 1,
+    //         },
+    //         1000: {
+    //             items: 1,
+    //         },
+    //     },
+    // };
+    // const Viproom = {
+    //     items: 1,
+    //     loop: true,
+    //     margin: 10,
+    //     autoplaySpeed: 800,
+    //     autoplayTimeout: 4000,
+    //     autoplay: true,
+    //     nav: false,
+    //     dots: false,
+    //     autoHeight: true,
+    //     responsive: {
+    //         0: {
+    //             items: 1,
+    //         },
+    //         600: {
+    //             items: 1,
+    //         },
+    //         1000: {
+    //             items: 1,
+    //         },
+    //     },
+    // };
+    // const yagnakun = {
+    //     items: 1,
+    //     loop: true,
+    //     margin: 10,
+    //     autoplaySpeed: 800,
+    //     autoplay: true,
+    //     autoplayTimeout: 4000,
+    //     nav: false,
+    //     dots: false,
+    //     autoHeight: true,
+    //     responsive: {
+    //         0: {
+    //             items: 1,
+    //         },
+    //         600: {
+    //             items: 1,
+    //         },
+    //         1000: {
+    //             items: 1,
+    //         },
+    //     },
+    // };
+    // const gajebo = {
+    //     items: 1,
+    //     loop: true,
+    //     margin: 10,
+    //     autoplaySpeed: 800,
+    //     autoplay: true,
+    //     autoplayTimeout: 4000,
+    //     nav: false,
+    //     dots: false,
+    //     autoHeight: true,
+    //     responsive: {
+    //         0: {
+    //             items: 1,
+    //         },
+    //         600: {
+    //             items: 1,
+    //         },
+    //         1000: {
+    //             items: 1,
+    //         },
+    //     },
+    // };
     const spaces = [
         { id: 1, imageSrc: space1, text: 'Drawing Room' },
         { id: 2, imageSrc: space2, text: 'Living Room' },
@@ -231,11 +231,10 @@ function Villaonrent() {
                     <div className="general-inner">
                         <div className="row general-item align-items-center">
                             <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
-                                <OwlCarousel className="owl-theme" {...Geberalroom}>
                                     <div className="image-block">
                                         <img src={gen1} alt="generalroom" />
                                     </div>
-                                    <div className="image-block">
+                                    {/* <div className="image-block">
                                         <img src={gen2} alt="generalroom" />
                                     </div>
                                     <div className="image-block">
@@ -255,8 +254,7 @@ function Villaonrent() {
                                     </div>
                                     <div className="image-block">
                                         <img src={gen9} alt="generalroom" />
-                                    </div>
-                                </OwlCarousel>
+                                    </div> */}
 
                             </div>
                             <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
@@ -300,11 +298,10 @@ function Villaonrent() {
                                 </div>
                             </div>
                             <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
-                                <OwlCarousel className="owl-theme" {...Viproom}>
                                     <div className="image-block">
                                         <img src={vip1} alt="viproom" />
                                     </div>
-                                    <div className="image-block">
+                                    {/* <div className="image-block">
                                         <img src={vip2} alt="viproom" />
                                     </div>
                                     <div className="image-block">
@@ -333,8 +330,7 @@ function Villaonrent() {
                                     </div>
                                     <div className="image-block">
                                         <img src={vip11} alt="viproom" />
-                                    </div>
-                                </OwlCarousel>
+                                    </div> */}
 
                             </div>
 
@@ -348,11 +344,10 @@ function Villaonrent() {
                     <div className="general-inner">
                         <div className="row general-item align-items-center">
                             <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
-                                <OwlCarousel className="owl-theme" {...yagnakun}>
                                     <div className="image-block">
                                         <img src={yagna1} alt="yagnakund" />
                                     </div>
-                                    <div className="image-block">
+                                    {/* <div className="image-block">
                                         <img src={yagna2} alt="yagnakund" />
                                     </div>
                                     <div className="image-block">
@@ -375,9 +370,8 @@ function Villaonrent() {
                                     </div>
                                     <div className="image-block">
                                         <img src={yagna9} alt="yagnakund" />
-                                    </div>
+                                    </div> */}
 
-                                </OwlCarousel>
 
                             </div>
                             <div className="col-lg-6 item" data-aos="zoom-in" data-aos-duration="3000">
@@ -405,11 +399,10 @@ function Villaonrent() {
                                 </div>
                             </div>
                             <div className="col-lg-6 item" data-aos="zoon-in" data-aos-duration="3000">
-                                <OwlCarousel className="owl-theme" {...gajebo}>
                                     <div className="image-block">
                                         <img src={g1} alt="gajebo" />
                                     </div>
-                                    <div className="image-block">
+                                    {/* <div className="image-block">
                                         <img src={g2} alt="gajebo" />
                                     </div>
                                     <div className="image-block">
@@ -417,8 +410,7 @@ function Villaonrent() {
                                     </div>
                                     <div className="image-block">
                                         <img src={g4} alt="gajebo" />
-                                    </div>
-                                </OwlCarousel>
+                                    </div> */}
                             </div>
                         </div>
                     </div>
